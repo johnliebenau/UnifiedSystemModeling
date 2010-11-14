@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="BusEnvProf" name="Business Environment" version="1.0" notes="Business Modeling Profile: Business Environment"/>
+	<!-- The profile content -->
+	<Content>
+		<!-- List of stereotypes used in this profile-->
+		<Stereotypes>
+		
+			<Stereotype 
+				name="Customer" 
+				notes="customer of a business" 
+				metafile="Customer.emf" 
+				cx="55" 
+				cy="75">
+				<AppliesTo>
+					<Apply type="Actor"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Supplier" 
+				notes="supplier to a business" 
+				metafile="Supplier.emf" 
+				cx="65" 
+				cy="75">
+				<AppliesTo>
+					<Apply type="Actor"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+					
+			<Stereotype 
+				name="SponsorInvestor" 
+				notes="sponsor of or investor in a business" 
+				metafile="Sponsor-Investor.emf" 
+				cx="50" 
+				cy="75">
+				<AppliesTo>
+					<Apply type="Actor"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+
+			<Stereotype 
+				name="Regulator" 
+				notes="external auditor of a business" 
+				metafile="Regulator.emf" 
+				cx="50" 
+				cy="75">
+				<AppliesTo>
+					<Apply type="Actor"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Competitor" 
+				notes="competitor of a business" 
+				metafile="Competitor.emf" 
+				cx="60" 
+				cy="60">
+				<AppliesTo>
+					<Apply type="Actor"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="MarketSegment" 
+				notes="segment of a market in which a business competes"
+				bgcolor="15466495" 
+				bordercolor="12829635">
+				<AppliesTo>
+					<Apply type="Package">
+					</Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessRequirement" 
+				notes="condition or situation in which something is required or desired" 
+				metafile="BusinessRequirement.emf" 
+				cx="60" 
+				cy="50">
+				<AppliesTo>
+					<Apply type="Class"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessService" 
+				notes="service provided by the business" 
+				metafile="BusinessService.emf" 
+				cx="130" 
+				cy="80">
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessInput" 
+				notes="Input to a business service" 
+				metafile="BusinessInput.emf" 
+				cx="80" 
+				cy="45">
+				<AppliesTo>
+					<Apply type="Class"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessOutput" 
+				notes="Output from a business service" 
+				metafile="BusinessOutput.emf" 
+				cx="80" 
+				cy="45">
+				<AppliesTo>
+					<Apply type="Class"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="requires" 
+				notes="relationship between business environment actors and Needs">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="desires" 
+				notes="relationship between business environment actors and Wants">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+			name="supports" 
+			notes="source element provides support to destination element">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="conflicts" 
+				notes="potential conflict between BusinessRequirements">
+				<AppliesTo>
+					<Apply type="Association"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Generalization" 
+				notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Generalization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="isSubstitutable" value=""/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Association" 
+				notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessFlow" 
+				notes="inputs and outputs to and from a business service">
+				<AppliesTo>
+					<Apply type="InformationFlow">
+						<Property name="direction" value="Bi-Directional"/>
+					</Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+		</Stereotypes>
+			
+		<TaggedValueTypes/>
+		
+	</Content>
+	
+</UMLProfile>
