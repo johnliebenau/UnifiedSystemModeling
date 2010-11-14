@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="301D09ED-9" name="BusinessEnvironmentDiagram" version="1.0" notes="BusinessEnvironmentDiagram"/>
+	<!-- The profile content -->
+	<Content>
+		<!-- List of stereotypes used in this profile-->
+		<Stereotypes>
+			<Stereotype name="Diagram_Logical" notes="" cx="" cy="" metafile="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo/>
+				<TaggedValues>
+					<Tag name="alias" description="" values="Business Environment" default=""/>
+					<Tag name="diagramID" description="" values="bem" default=""/>
+					<Tag name="toolbox" description="" values="BusinessEnvironmentToolbox" default=""/>
+				</TaggedValues>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="BusinessEnvironmentDiagram" notes="A business environment diagram illustrates the environment in which the business operates." cx="" cy="" metafile="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

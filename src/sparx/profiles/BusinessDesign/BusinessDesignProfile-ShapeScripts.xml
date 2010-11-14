@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+
+	<Documentation 
+		id="BusDesProf" 
+		name="BusinessDesign" 
+		version="1.0" 
+		notes="Unified Business Modeling: Business Design"/>
+
+	<Content>
+
+		<Stereotypes>
+		
+			<Stereotype 
+				name="BusinessInterface" 
+				notes="an interface supported by a business subsystem" 
+				bgcolor="15779995" 
+				bordercolor="4194304" 
+				borderwidth="1">
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+			</Stereotype>			
+			
+			<Stereotype 
+				name="BusinessSubsystem" 
+				notes="a significant division or component of a business"
+				cx="190"
+				cy="65"
+				bgcolor="15779995"
+				bordercolor="4194304"
+				borderwidth="1">
+				<AppliesTo>
+					<Apply type="Component"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Port" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Port"/>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="OrganizationalRole" 
+				notes="role defined in an organization" 
+				cx="175" 
+				cy="38" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAPg7izkroi0HFgEAAJwCAAAHABEAc3RyLmRhdFVUDQAH4MFASeDBQEngwUBJ
+nZFBS8NAEIXftf6KklMFkWopFcSD4sGzepe0WdOF1Eo3WlH63/1mNtV4UwkzO7v73sx72aSl
+Sj0raKgVVdSTDvRBDKjWSn5fUW1BXBCtNnoBf+6YpAX3DTEnWxfDPPpZ+kIt9eAnUTVdM6aA
+Gdi15A27jLTP1kiPoUbEDcyke3Lt+8L1muISXkkH61PoiLimWqDVzlt6rLm9JCr4QW+cFXQ4
+9LAp2eeA+8C8OxjvVDblRDNN6TnRmaP36sxTCzbipvFZjc8zzikM43yvE9Y+u3JlWxRlfa90
+y3/Y/Ix6yOivUXdqCl3xz5O/jjGSbn1y0DGxQo/5t5l57sxzX/mu+6+he5ffuZ9q/Cf34x/u
+bf2P+x3Z4hNQSwECFwsUAAAACAD4O4s5K6ItBxYBAACcAgAABwAJAAAAAAAAAAAAAIAAAAAA
+c3RyLmRhdFVUBQAH4MFASVBLBQYAAAAAAQABAD4AAABMAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>			
+			
+			<Stereotype 
+				name="OrganizationalUnit" 
+				notes="a group or other organization within a business" 
+				cx="185" 
+				cy="65" 
+				bgcolor="15466495"
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAOJOiTl4yx5NIwEAAJYCAAAHABEAc3RyLmRhdFVUDQAHdUA+SXVAPkl1QD5J
+fZFLT8NADITnWn5FlFOREAJaEBLigMShJ07cUcirEW2KsinlIf47n52QAmrRyl57d2a89gbN
+lehZuSItiSrVOtAHNiJaKfh9RrQBcY21arQGf+WYoJT7BfaINxXDFH4WBtRcD35SqUS1w8Qw
+c7IW35AZ0rAZeQG30jvRGOSpLnWuI13gIx0OlXO4BbgFK+WFC6xxxhlIY2z3yS9uBi6hoxrf
+ovCCVtepTWI84MwqakSuOuM+6B5feh473hiJ69XeUUy9WLdE9iY7tworbm+wDH6uV85if4+Z
+Vekm/n+10M8+ZV8TfdeawbIZ2itSunj7o93p2u+W/UR3cY7Jl1Q3TZuZ2URT9z9nNwLX/e0+
+7Tv/mY13/7RTd6qT3m91P/uJ2/4FUEsBAhcLFAAAAAgA4k6JOXjLHk0jAQAAlgIAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3VAPklQSwUGAAAAAAEAAQA+AAAAWQEAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+					<Tag name="structure" type="enumeration" description="" unit="" values="Hierarchy,Network" default="Hierarchy"/>
+				</TaggedValues>
+			</Stereotype>			
+			
+			<Stereotype 
+				name="Employee" 
+				notes="employee of a business" 
+				metafile="Employee.emf" 
+				cx="25" 
+				cy="27">
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Generalization" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Generalization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="isSubstitutable" value=""/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Association" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="MechanicalSystem" 
+				notes="machine that automates part of the business" 
+				cx="190" cy="65" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIALZ8iTkHWBlQ+QAAAOgBAAAHABEAc3RyLmRhdFVUDQAHx5A+SceQPknHkD5J
+VZDLSsRQEERrq18RshpBBBVFGFwoLvwA9xInjwlkEsnNqCj+u6c6TkRCdbpvV/UraatCr6qU
+aYfXqtexvsAR3qAU+RLvHcYtmDRqD38dnKQN+Q68YF3FnDre0sLa6jleWjVUnTk5yopowo5E
+ZppbEtdoW33irWCe60ZXOtU1NtPJ0rlCW8Pr+DZM2IExFBcwrfj7X/7TlvAKNuqxExXeqDVv
+6kusFp7R0iOLqo/kk56wTcR58K0ool4fG+X0y/WA55n87g4D2TtQoq/0wVse8xju4j6+f/O7
+c657ruwr9DFbQr1HNQTrUPGM3I753NN7Gt50tod9v8EPUEsBAhcLFAAAAAgAtnyJOQdYGVD5
+AAAA6AEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB8eQPklQSwUGAAAAAAEAAQA+
+AAAALwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>			
+			
+			<Stereotype 
+				name="BusinessEnsemble" 
+				notes="combination of employee role and application/mechanical system" 
+				cx="190" 
+				cy="65" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIANCAiTlrFiA9/QAAAOIBAAAHABEAc3RyLmRhdFVUDQAHkJc+SZCXPkmQlz5J
+VZDZasJgEIXPrX0K+a8sSLGLgkgvKhb6AL0v0SwGYiz544Kl795vxhAp4fyZ5cxyJmqrRN/K
+NNQOq1StO/2AAdZe0fMp1gnGK2jV6AB/4ZyoDfkKrHmti3Fyj8WetdWXR0oVdL1yApUZXsvb
+4BnTuCl+Tm2pC9YI5qPmmmismaZ49/3kjNocXsW3YcMKNF7xBHNKxe3//K82hZegqOZt6XCk
+11WpXWLU8YxZMmHoPT/IRn3yFu4HZxs/8W616wlMC1ph2UYWt/57sm8gpT7TmVjwbQw2xebY
+9YtOcdCSG9sNat8s6h3LFO+6Oz+4nfs8U2h44VJjlE56pb/gD1BLAQIXCxQAAAAIANCAiTlr
+FiA9/QAAAOIBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeQlz5JUEsFBgAAAAAB
+AAEAPgAAADMBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype 
+				name="ApplicationSystem" 
+				notes="system composed of multiple component software applications" 
+				cx="185" 
+				cy="65" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIADKpiTmZ0l7X+QAAAOoBAAAHABEAc3RyLmRhdFVUDQAHdd4+SXXePkl13j5J
+VZFJS8RQEITrqr8ivNMIIq6DIB4ED971LnGyTCCTkSTu+N/9qqNRCdWv+72q3jJorVyPKpVp
+g9eo064+wA7eVkO8F3gvMC7BqF5P8C+CM2jFewsesM5iThV3w8xa6z5uGtVknTgJZUk0Ynsi
+M80tiCu0jd7xFjCPdK4z7WuJzbQ3Vy7RVvBavhUdtqAPxTFMK37Pk3/aAl7ORB12JMMzuaZJ
+vYnFzPPns6FOFplv4Ay6w9YRp9BYlUfOLqZK1Ey6xnNfvneVLa9XoEBf6pW7FD0ZU7Um/kH9
+PXeC7dzem7f8k+NWb/TgvW10ELaKip7UONUh9u/En+ALUEsBAhcLFAAAAAgAMqmJOZnSXtf5
+AAAA6gEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3XePklQSwUGAAAAAAEAAQA+
+AAAALwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype 
+				name="UserInterfaceClient" 
+				notes="user interface application" 
+				metafile="UserInterfaceClient.emf" 
+				cx="90" 
+				cy="60">
+				<AppliesTo>
+					<Apply type="Component"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+
+			<Stereotype 
+				name="BatchClient" 
+				notes="batch application" 
+				metafile="BatchClient.emf" 
+				cx="90" 
+				cy="60">
+				<AppliesTo>
+					<Apply type="Component"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessServer" 
+				notes="service providing application" 
+				metafile="BusinessServer.emf" 
+				cx="62" 
+				cy="60">
+				<AppliesTo>
+					<Apply type="Component"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Database" 
+				notes="database instance" 
+				metafile="Database.emf" 
+				cx="60" 
+				cy="50">
+				<AppliesTo>
+					<Apply type="Component"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Realization" notes="realization of business analysis types">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Realisation"/>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+											
+			<Stereotype name="Nesting" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Nesting"/>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Assembly" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Assembly"/>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Dependency" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+		</Stereotypes>
+			
+		<TaggedValueTypes/>
+		
+	</Content>
+	
+</UMLProfile>
