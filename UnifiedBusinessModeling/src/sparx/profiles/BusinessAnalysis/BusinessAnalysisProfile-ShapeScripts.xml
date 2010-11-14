@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+
+	<Documentation id="BusAnProf" name="Business Analysis" version="1.0" notes="Business Modeling Profile: Business Analysis"/>
+
+	<Content>
+
+		<Stereotypes>
+		
+			<Stereotype 
+				name="BusinessBoundary" 
+				notes="general boundary point of a business" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIABJIgzn2K95CGwEAAKgCAAAHABEAc3RyLmRhdFVUDQAHqUo2SalKNkmpSjZJ
+nZHNTsNADITnGp6iyqlICAFVRSXEAcSBO9xRaEK6UkpQN1B+1HfnszclOQIHe73eGXvsjVqp
+0IsqTbQmCnrWgb6wjKhV9PeSaAviEuu00Sv4C8dELXlvsEe8VTHMk+fiD2qlB88E1VRNmBxm
+xa3Db7glZDbygToTTbFb2FH3+NrvuWs21QXcgipWK9cRdkO0RK/lO2q0vF5hJfxK7+RyKhy6
+WZc0a8Z7Rb87GJ9E1uVU55pTc6aFo/cKba4ObGCixns13s84ZzCMM5wzzjG7dGVbFCV9b1RL
+W7Z5piNk8B+pezW5rtl79B8yRuTekrHJbAsfOia/RpftwXon7Se9mkHDrt9v1f/R77Ywp9Jf
+trDvO2zjP1vY4c2+AVBLAQIXCxQAAAAIABJIgzn2K95CGwEAAKgCAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAepSjZJUEsFBgAAAAABAAEAPgAAAFEBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+									
+			<Stereotype 
+				name="BusinessWorker" 
+				notes="general worker in a business" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAAJIgzmVLcMsCAEAAHgCAAAHABEAc3RyLmRhdFVUDQAHwUo2ScFKNknBSjZJ
+nZBBT8JAEIXfFX4F6QkTYlBC0BAPGg/eNeFc24oNBQxbxWj473wzW7WcMKSZ2dmdN/NeX9Cr
+Ur2pUE9LqlIrdfVNdKjWCt7PqbYgbohaG72DnzomKKNfEc9k22KYF38Lv6j4WVXS66lPPIAJ
+eiLP/Z64DlOSwpDCnlEnGhD3VBka7L1mx5ruLZEzX+iTt4QNZx7GEvV36BfwPTLxRWUsF5po
+zM6Rrhz9o8+01mBLdFfOVTmfzVwyYTN/54izPZ27si2Kor4PtkXn7H/6LWTpLs8bNYnu8DK4
+6zYRNHPWBbeNzslLNJkHxhu5r139sMW/a7wtGs//58D4YMdxB4YHDth5igM7ssUeUEsBAhcL
+FAAAAAgAAkiDOZUtwywIAQAAeAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB8FK
+NklQSwUGAAAAAAEAAQA+AAAAPgEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessEntity" 
+				notes="data or artifact used in a business" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIADBIgzmQ5/DIBgEAAHgCAAAHABEAc3RyLmRhdFVUDQAH1Eo2SdRKNknUSjZJ
+nZDBTsJgEITnCk9BeoLEEJUQSQgHDCbc8QVqW7FJEeJfRCS8u9/uXwVOGtPsdrs7uzOdoBel
+2qhQRyuqUq9q60C0qNYKPs+pdiAmRK03bcGPHROUMa+IJ7JdMcyz98IPKj5Wlcw66hJzMEGP
+5KV/J67DlKQwpLBn1ImuiBlVhgbr19xYM50SOfuFPuglXOh5GEvU32JewLdg45PKWG50pyE3
+Bxo5+lufaa3BluiunKtyPtu5ZcN2Tu8B7/Pt3JXtUBT1vXMtOmf/0z1Dlu7yslGT6B4vg7tu
+G0EPVHah1l59eis0mQfGG3VfN/nEf2y8LRrP/+bA8OLG7w4Y76UT/3HgSLb4AlBLAQIXCxQA
+AAAIADBIgzmQ5/DIBgEAAHgCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfUSjZJ
+UEsFBgAAAAABAAEAPgAAADwBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+						
+			<Stereotype 
+				name="BusinessEvent" 
+				notes="event that has significance to a business" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAKZqgzk2UqZJBwEAAHYCAAAHABEAc3RyLmRhdFVUDQAHv4c2Sb+HNkm/hzZJ
+nZDNTsJQEIXPFp+CdIUJISASSQgLjCTu9QVKW7BJ+Qm3CsHw7n4zLVpWGtOce6d3zsw5M0Fv
+irVTprbWRLk2utEnaBFtFTyfEh1gTEGpvd7hT5wTlJAvwILTuhhn6W/hm1V9FuXk2uqAZzhB
+r5wr/4/chzmJUYhRT4gjdcETUYIHey/psSU7Ayn1mY68RXS4dZhK5b9FPkPvhYoTkakM9KAR
+PYcaO/viz7yWcHN8F65VuJ7V3FFhNT/3kLtZnbqzA44qfx90qzZn83QazNy3vKrdRHpkl8G3
+bhVBc6/d0KXHvcaRbcBUDfe1935D/VxvNqs3/rf5R1c9fp+/fzW/3f+Z/8xp+AJQSwECFwsU
+AAAACACmaoM5NlKmSQcBAAB2AgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHv4c2
+SVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>			
+						
+			<Stereotype 
+				name="ProcessLayer" 
+				notes="logical layering of business processes" 
+				cx="600" 
+				cy="175" 
+				bgcolor="14479600" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAPRogznK7U8jWgAAAIIAAAAHABEAc3RyLmRhdFVUDQAHfoQ2SX6ENkl+hDZJ
+TY1LCoAwEEPfVk/RZQUXUtx5muIHBbViRRfi3Q0iIkMmQ0gykR7PQoth0jUwk3IKCVHqRidt
+1NQE7cCKlddRUpD/2IkNGdWTbeTzHGrz6hjY1RW/X/b1XcINUEsBAhcLFAAAAAgA9GiDOcrt
+TyNaAAAAggAAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB36ENklQSwUGAAAAAAEA
+AQA+AAAAkAAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+			</Stereotype>
+						
+			<Stereotype 
+				name="BusinessProcess" 
+				notes="implementation of a business use-case or supporting business process" 
+				cx="130" 
+				cy="60" 
+				bgcolor="15779995" 
+				bordercolor="4194304" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAEhqgzkE3PvucAAAAKoAAAAHABEAc3RyLmRhdFVUDQAHDIc2SQyHNkkMhzZJ
+VY7LCsJQDAVna7+iyxa60PrY9GsuVumFPqRXFBT/3VGKICHhkMxJkugIXDiRM6giIxlPc0Vr
+90yy91AVEhu2rKk4WHNKmi+XnF4lI71xZLJOzItjb1TUOj7Omt2ft5UL3L0a3BG5uSv9fioW
+7mW+AVBLAQIXCxQAAAAIAEhqgzkE3PvucAAAAKoAAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIu
+ZGF0VVQFAAcMhzZJUEsFBgAAAAABAAEAPgAAAKYAAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Collaboration"/>
+				</AppliesTo>
+			</Stereotype>
+			
+			<Stereotype name="Generalization" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Generalization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="isSubstitutable" value=""/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+					
+			<Stereotype name="Realization" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Realisation">
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Association" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Aggregation" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Aggregation">
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Composition" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Composition">
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Dependency" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="supports" notes="source element provides support to destination element">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+		</Stereotypes>
+			
+		<TaggedValueTypes/>
+		
+	</Content>
+	
+</UMLProfile>

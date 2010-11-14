@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="BusMotProf" name="Business Motivation" version="1.0" notes="Business Modeling Profile: Business Motivation"/>
+	<!-- The profile content -->
+	<Content>
+		<!-- List of stereotypes used in this profile-->
+		<Stereotypes>
+		
+			<Stereotype 
+				name="Goal" 
+				notes="statement about a state or condition to be accomplished through appropriate means" 
+				metafile="Goal.emf" 
+				cx="55" 
+				cy="45">
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Objective" 
+				notes="statement of a time-targeted and measurable target that is undertaken to achieve goals" 
+				metafile="Objective.emf" 
+				cx="55" 
+				cy="47">
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+
+			<Stereotype 
+				name="Strategy" 
+				notes="plan for transforming a system to support one or more goals" 
+				metafile="Strategy.emf" 
+				cx="75" 
+				cy="40">
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+					
+			<Stereotype 
+				name="Tactic" 
+				notes="course of action that implements a strategy and supports one or more objectives" 
+				metafile="Tactic.emf" 
+				cx="80" 
+				cy="45">
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+								
+			<Stereotype 
+				name="Policy" 
+				notes="method that defines or constrains aspects of a business and guides current and future decisions" 
+				metafile="Policy.emf" 
+				cx="75" 
+				cy="45">
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+								
+			<Stereotype 
+				name="Decision" 
+				notes="conclusion or judgment regarding an issue or situation" 
+				metafile="Decision.emf" 
+				cx="65" 
+				cy="55">
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues>
+					<Tag name="frequency" values="random|periodic|once"/> 
+				</TaggedValues>
+				<Constraints/>
+			</Stereotype>
+								
+			<Stereotype 
+				name="Rule" 
+				notes="conclusion or judgment regarding an issue or situation" 
+				metafile="Rule.emf" 
+				cx="65" 
+				cy="45">
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+								
+			<Stereotype name="supports" notes="source element provides support to destination element">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="conflicts" notes="potential conflict between Goals or Objectives">
+				<AppliesTo>
+					<Apply type="Association"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Dependency" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Association" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+		</Stereotypes>
+			
+		<TaggedValueTypes/>
+		
+	</Content>
+	
+</UMLProfile>
