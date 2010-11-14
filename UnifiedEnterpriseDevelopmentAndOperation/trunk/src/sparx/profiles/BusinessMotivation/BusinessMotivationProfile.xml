@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="BusMotProf" name="BusinessMotivation" version="1.0" notes="Business Modeling Profile: Business Motivation"/>
+	<!-- The profile content -->
+	<Content>
+		<!-- List of stereotypes used in this profile-->
+		<Stereotypes>
+		
+			<Stereotype 
+				name="Goal" 
+				notes="statement about a state or condition to be accomplished through appropriate means" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAKZRDT3rDj0DEwEAAK4CAAAHABEAc3RyLmRhdFVUDQAHrxplTK8aZUyvGmVM
+nZFBS8NAEIXftYL/oeypgkhtLArFgyDoXe8Sm20aSFtpohWl/91vZlM0N5Uws7OT997MSxot
+letFUUOtqCqtdawjfXoecNuocUxBtQN1TbTa6hXOrEM1moOoiWeyaRlq4b3mB26pJ+9VKlFO
+qAA3cmvJW24Jm/AVGkONiHt4jR7Jpd+Db21757By+KYSdErcUs3Z1votGhve3hAF/Kh3egGF
+E4805+B2ACYy8wHWB5VNOtelpuhmunLGwYu5jmgtwNY8NrH2qcaawDHW95lx9vmFb7hjs7Tn
+G3rpW5uvUQ9b+d8pu52C7phkX/KMzoodzPlFFxkbW5705u2JVMXur/ze+1TjP3of97zb+V/v
+ez9T/gJQSwECFwsUAAAACACmUQ096w49AxMBAACuAgAABwAJAAAAAAAAAAAAAIAAAAAAc3Ry
+LmRhdFVUBQAHrxplTFBLBQYAAAAAAQABAD4AAABJAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+									
+			<Stereotype 
+				name="Objective" 
+				notes="statement of a time-targeted and measurable target that is undertaken to achieve goals" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIALRRDT1z3BIVFwEAALwCAAAHABEAc3RyLmRhdFVUDQAH1hplTNYaZUzWGmVM
+nZFBS8NAEIXfNYL/oeypgkg1FgXxIHjw5kHvEpuYrqRWmmhF6X/3m0lizc16mJndzXtv3kxq
+zZXpVYVGWnCKetG+9vTlOeG2VO2YnNMa1CXRaKU3OBcdqtYMREU8kk3LUE/+Vv/CzfXgb1El
+yi0qwC24NeQVtx6bdDWiM9KYuIFb655c+j24c/OewczQMKWgQ+Ka0wzH9t6gseTrFZHDL/TB
+W0DhwKPt00+cgCnoeQfrk5N1OtaZpuimOnfG1qNN14COTFV5x8q7GusEjrG2NaUO+bk7XOOs
+9fmOXrtvm2s8wEb/Q2XnKeiWbT/7nD3ziFjgxnZw2kWKd8vpoPPmZ79F94/+voWpJjtuYTLY
+gtX/bmHjtc3fUEsBAhcLFAAAAAgAtFENPXPcEhUXAQAAvAIAAAcACQAAAAAAAAAAAACAAAAA
+AHN0ci5kYXRVVAUAB9YaZUxQSwUGAAAAAAEAAQA+AAAATQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+									
+			<Stereotype 
+				name="Strategy" 
+				notes="plan for transforming a system to support one or more goals" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAMJRDT200kGjBAEAAJICAAAHABEAc3RyLmRhdFVUDQAH+RplTPkaZUz5GmVM
+nZDNSsNAFIXPtoLvULKqIKUai4K4KLhwry8Qk7EGUitOtK3Sd/e7d6JtdlrC/cnMOfeeOVHP
+KvSqoKEWdLVedKwjfXke8LdUdExFtwJ1Q7R60zuc6w4VVYJoiEeyzTLUk5/FPVz6Ul9zP9SI
+uAMX9UCe+3/mikxTwZ4CDSV9plPilq5EiZ23zFhyOyMq+EFrzjImnHikPT8vGYAJ7LyH9Uln
+m850qSlzc105Y6fTVLega17Q+MbGtxrrHI6xdjWn9vmVK1yhLOn8YF7y0d416mFrd37eacpQ
+aP4aL3C60Zi6QIs5cNFFzpfy/t7tr7uhc/7vHkw1+acHk54HVg/1YOs15W9QSwECFwsUAAAA
+CADCUQ09tNJBowQBAACSAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH+RplTFBL
+BQYAAAAAAQABAD4AAAA6AQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Tactic" 
+				notes="course of action that implements a strategy and supports one or more objectives" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIANBRDT2w3zHtAAEAAIoCAAAHABEAc3RyLmRhdFVUDQAHEBtlTBAbZUwQG2VM
+nZDNSsNQEIXPNkLfoWRVoUg1FgXpQnDhXl8g3sQ2kFrpjVaUvrvfTK7W7NTF/Ny558ycmaiV
+Sj2r1lhrskZPGulIH+4zXhtFx1RkO1ALrNNWL3CuEioqgGixB7z1MtSj1+IPXJZiw99YE+wW
+TNQ9funv3NWYnpIZJfMDea4pdkMWUGH1jh4bfq+xCn6tN2o5HY7d+jlfW2RgambewXons0mn
+utCcvoUunXHQaIo70A3qW5/Y+lRjncEx1iEWxCG/coU7lPU6X+nX39D2mgywjV99mTTlfong
+rKATqmt02PbnyYrki8HM/fdl63Tx3+8/1+yP+88G+1v87/57j73/BFBLAQIXCxQAAAAIANBR
+DT2w3zHtAAEAAIoCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcQG2VMUEsFBgAA
+AAABAAEAPgAAADYBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Policy" 
+				notes="method that defines or constrains aspects of a business and guides current and future decisions" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAO5RDT1Fs0HbAwEAAIoCAAAHABEAc3RyLmRhdFVUDQAHOxtlTDsbZUw7G2VM
+nZDNSsNQEIXPNoLvULKqIFIbq4K4EFy4FPQFYhLrhdSKN1p/6Lv7zeRqzc66mJ8798ycMxP1
+oFJPajTSgizoUbva0af7jNdS0TE12QrUOdbpWS/0nCVUVAWixe7wNstQ916Lv3BZioG/kcbY
+FZioW/zc37mrMT0lHCX8FXmufeySrEKF1TtmLPm9wGr6G71Ry5mw59bzfG+RgWngvKHrg8yY
+DnWiGXMLnXrHRqMp7kAH1LfO2DqrdU3psa5NLIjD/toVrlDW63xlXn9D22s8wAa/+jxpynXt
+bAHWdx1QXaDDtj9KVrif6njAuf65bJMu/vf9Z5psuf9ksL/F/+6/9tj7L1BLAQIXCxQAAAAI
+AO5RDT1Fs0HbAwEAAIoCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAc7G2VMUEsF
+BgAAAAABAAEAPgAAADkBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Decision" 
+				notes="conclusion or judgment regarding an issue or situation" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAOBRDT2fcDA+AgEAAI4CAAAHABEAc3RyLmRhdFVUDQAHVBtlTFQbZUxUG2VM
+nZDNSsNAFIXPNoLvULKqIFIbiwVxIbhwry8Qk9gOpK2YaEXpu/vdO1Nrdirh/szknHvPnE5L
+lXpWo5FWdEFrHetIn54zTht1jqnptqCuiV4veoVzlVCdKhAt8Ui2WYZ68rvuBy5LNfBvpDFx
+B6bTA3nh59zVmJ6SHSX7K/pcp8QtXYUKu++ZseHvDVHDb/TOXc6EE4+4Z/+KDEzDzntYH3S2
+6VyXmjG30NwZB42muAcdUN/6xta3GmsKx1iHWlCH/NoVblEWdb4xL3po7xoPsMFdXyRN+zcG
+8PF9Z5xXaDEHLlIUfJang727b3eb5PrvPZhp8kcPJgMPrP7Xg53XmL8AUEsBAhcLFAAAAAgA
+4FENPZ9wMD4CAQAAjgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB1QbZUxQSwUG
+AAAAAAEAAQA+AAAAOAEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype 
+				name="Rule" 
+				notes="conclusion or judgment regarding an issue or situation" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIABhSDT3gkyX6FAEAAK4CAAAHABEAc3RyLmRhdFVUDQAHbBtlTGwbZUxsG2VM
+nZFBS8NAEIXftYL/oeRUQaRai0LxIHjwrN4lNts0kLbSjVaU/ne/mU3VeLFImNnZzXtv3uxG
+zZXrWUF9LagqLXWoA3147rFbKTqmoNqAuiIarfUCZ9KioqYgauKJbFqGmvlZ/IGb69HPKpUo
+J1QGN7BryGt2CZvwFRp9DYhbeFEP5NL3mbs23zmsHL6pZDombqimuLXzBo0Vf6+JAn7QG2cZ
+Ckceqc9u2h6YQM97WO9U1ulUFxqjO9KlM3az2NQBrRnYms861t7VWGdwjPW9jli7/MIdbnCW
+fL6il+7a5hp0sJW/Ttl6ynTH/dtNnxALPNjk518xdL/DTr8tkarQvsr+s49/af09uzno3sF/
+Z9/6mvInUEsBAhcLFAAAAAgAGFINPeCTJfoUAQAArgIAAAcACQAAAAAAAAAAAACAAAAAAHN0
+ci5kYXRVVAUAB2wbZUxQSwUGAAAAAAEAAQA+AAAASgEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype name="supports" notes="source element provides support to destination element">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="conflicts" notes="potential conflict between Goals or Objectives">
+				<AppliesTo>
+					<Apply type="Association"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Dependency" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Association" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+		</Stereotypes>
+			
+		<TaggedValueTypes/>
+		
+	</Content>
+	
+</UMLProfile>

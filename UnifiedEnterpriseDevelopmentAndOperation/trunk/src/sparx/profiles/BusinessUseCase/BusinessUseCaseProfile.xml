@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+	<Documentation 
+		id="BUseCaseProf" 
+		name="BusinessUseCase" 
+		version="1.0" 
+		notes="Business Modeling Profile: Business Use-Case"/>
+		
+	<Content>
+	
+		<Stereotypes>
+		
+			<Stereotype 
+				name="BusinessActor" 
+				notes="actor that interacts with a business system" 
+				metafile="BusinessActor.emf" 
+				cx="40" 
+				cy="75">
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+
+			<Stereotype 
+				name="BusinessUseCase" 
+				notes="interaction between business system and business actors"
+				metafile="BusinessUseCase.emf"
+				cx="130"
+				cy="60">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues>
+					<Tag name="1-BusinessValue" description="estimated business value (1=low to 5=high)" values="1|2|3|4|5"/>
+					<Tag name="2-BusinessValueRationale" description="rationale for business value estimate"/>
+					<Tag name="3-TechnicalDifficulty" description="estimated technical difficulty (1=low to 5=high)" values="1|2|3|4|5"/>
+					<Tag name="4-TechnicalDifficultyRationale" description="rationale for technical difficult estimate"/>
+					<Tag name="5-UseCasePriority" description="BusinessValue * TechnicalDifficulty" values="1..25"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<Stereotype name="Generalization" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Generalization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="isSubstitutable" value=""/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+											
+			<Stereotype name="Association" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="includes" notes="source use-case includes destination use-case">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="refines" notes="business actor refines definition of customer, etc">
+				<AppliesTo>
+					<Apply type="Realization"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+											
+			<Stereotype name="supports" notes="source element provides support to destination element">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+		</Stereotypes>
+			
+		<TaggedValueTypes/>
+		
+	</Content>
+	
+</UMLProfile>

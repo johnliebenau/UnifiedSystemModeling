@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+
+	<Documentation 
+		id="BusDeplProf" 
+		name="BusinessDeployment" 
+		version="1.0" 
+		notes="Unified Business Modeling: Business Deployment"/>
+
+	<Content>
+
+		<Stereotypes>
+		
+			<Stereotype 
+				name="BusinessLocality" 
+				notes="geographic location of business system components" 
+				cx="190" 
+				cy="55" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAMJUhjl0202LFgEAAJ4CAAAHABEAc3RyLmRhdFVUDQAHGVY6SRlWOkkZVjpJ
+vZE7TwMxEISnDb8ichWkKEp4FAhRBFFQUNKjI+dcLF0SFB+Eh/jvfLuO0CkNHTrt3tqemR2v
+s1aq9KKoodZUSRud6IsYUG2V/bym2oO4ITrt9Ar+2jFZC85b4plsKoZZ+l7+Ra305DtJDaoF
+E2BGVh15x8qQhk2whxoR93CyHsmNr4M7Na8VjAquKQSNiTuqBS5tv0Njy+mcqOFHvbMXUDj1
+sC7lhgPOI/0yjE8q6zLTlaZoXvIZutzAbhpRWYJs+axX6/2Mc+boce9/fsSu3dkeR8XfG2pl
+tnafUQ+Z/B2ag5ugW6Zt/jbOyHqga5l5QulDE/bX+LI5WO+Z5wsc2Hrac/HtOR5e5q8pGPdY
+4b+mYE4tfgBQSwECFwsUAAAACADCVIY5dNtNixYBAACeAgAABwAJAAAAAAAAAAAAAIAAAAAA
+c3RyLmRhdFVUBQAHGVY6SVBLBQYAAAAAAQABAD4AAABMAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Node">
+						<Property name="isExecutionEnvironment" value="false"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+				
+			<Stereotype 
+				name="Client" 
+				notes="client computer" 
+				cx="150" 
+				cy="50" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAERhhznYA3k5ugAAAGYBAAAHABEAc3RyLmRhdFVUDQAHGr07SRq9O0kavTtJ
+TZDZCoJAFIb/23oK8cpAovUquupBwtxBLdQKit69b46hMZxt5jvbdCoU6aZUnmq8Uo3meiMz
+vKs6e0/wnhBHpFerO/zBmE4x7xVyQbsqjsnsrhupQme7KZVTdWB8MlOiHt0SOdKxCXFGbqkX
+XgC51l4rhaY9LcbOKbkZXMWJmbBCWsvYwO7JmOwWO+UmcBEbNeieCg9qDZu6nwhGrrQ/yX9z
++DrZDsPUS2xNf98mC23K0PqE2v11+yBfUEsBAhcLFAAAAAgARGGHOdgDeTm6AAAAZgEAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABxq9O0lQSwUGAAAAAAEAAQA+AAAA8AAAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Node">
+						<Property name="isExecutionEnvironment" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>	
+								
+			<Stereotype 
+				name="Server" 
+				notes="server computer" 
+				cx="150" 
+				cy="50" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAAxdhTke6DWavQAAAGYBAAAHABEAc3RyLmRhdFVUDQAHRhM5SUYTOUlGEzlJ
+TZBbCsJADEXvr66i9KtCEZ9f4ipcgNS+oa3SVgXFvXsmlVaGZJKZk+TOdCoU6aZUnmqiUo3m
+emMzoqs6u0+InhBHrFerO/zBmE4x9xV2wbsujsnsrBupQmc7KZXTdWB8KlOyHt+SOdKxCXlG
+bakXUQC51l4rheY9LcbJKbUZXMWKUVhhrVVsYPdUTPuWfapN4CJe1OB7OjzoNbzU/UQwcqX9
+Sf7T4etkWh3daomvme+bstBUDpNC7f6UfrAvUEsBAhcLFAAAAAgADF2FOR7oNZq9AAAAZgEA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB0YTOUlQSwUGAAAAAAEAAQA+AAAA8wAA
+AAAA</Image>
+				<AppliesTo>
+					<Apply type="Node">
+						<Property name="isExecutionEnvironment" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>			
+			
+			<Stereotype 
+				name="MainFrame" 
+				notes="mainframe computer" 
+				cx="150" 
+				cy="50" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIACBdhTlIb6A7wAAAAGwBAAAHABEAc3RyLmRhdFVUDQAHXBM5SVwTOUlcEzlJ
+TZDLCsJADEXvVr+idKVQxOdK3LrzG6T2DW2Vtioo/rtn0lJlSCaZOTfJTKtcoW5K5KkiKlRr
+qjc2IbqqtfuY6AlxwDo1usPvjWkVcV9iF7yr4pjUztqRynW2k0IZVXvGR5mQdfiGzJGOjclT
+tIVeRDPIlXZaKjDvaT52TtCmcCUrYsISa0yxht2h+O0b9p82hgt5UY3vqPCgVv9S9xOzkSvs
+T7JhDl+n4YeOpq84X2AVU/g2X2Cz9n0Dbf96frAvUEsBAhcLFAAAAAgAIF2FOUhvoDvAAAAA
+bAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB1wTOUlQSwUGAAAAAAEAAQA+AAAA
+9gAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Node">
+						<Property name="isExecutionEnvironment" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>	
+					
+			<Stereotype 
+				name="Storage" 
+				notes="data storage device (disk, flash, etc)" 
+				cx="155" 
+				cy="50" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIANJNkjkSZWNnvQAAAGgBAAAHABEAc3RyLmRhdFVUDQAHARxKSQEcSkkBHEpJ
+TZBbCsIwEEXvr65C+lWhiFr9ElfhAqT2GWhVmqqguHdP0tJKuJOZ5MwjsaqU6K5cCzV4RlfN
+9UEzvJusv8/wXhBH1KnVA/7gGauU+xpdsK6KYwp/Zkeq0tmfGJVU7ZmAzJyow7ZEjnRsRlyQ
+a/TGCyE32rMitCZajp1zcgu4mpUyYY1an7EdMqY9Zp9yM7iEF12xHRWe1Opf6n4iHDnj/6Qc
+5gh0gnY9+rMVapgg8LNFfs6ITjF29zfrF/0AUEsBAhcLFAAAAAgA0k2SORJlY2e9AAAAaAEA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABwEcSklQSwUGAAAAAAEAAQA+AAAA8wAA
+AAAA</Image>
+				<AppliesTo>
+					<Apply type="Device">
+						<Property name="isExecutionEnvironment" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>	
+
+			<Stereotype 
+				name="Printer" 
+				notes="" 
+				cx="155" 
+				cy="50" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAOZQkzkZZPYi9QAAANQBAAAHABEAc3RyLmRhdFVUDQAHR3JLSUdyS0lHcktJ
+TZFLT8NADITnCr+i2lORKgQUTogDEgeOHLij0DwaKU1RNjwE4r/zjVOlKBqvvZ6x107WVoXe
+VGmhHV6rXqf6ASd4e+XIl3ifMO7AqEHv8G+Dk7Uh34FXrKuYU8ddnllbvcRNq4aqEyehrIhG
+7EBkprklcY221TfeEualbvhW4ILobO5coa3hdXwbXtiBIRRXB8XxXHMetSW8gol67EiFD2pN
+k3oTy5lntPRYRNVH8lnP2CbiFHwriqjXx0SJfkkPeH6T791hT/YelOgrfXGX4j2Gu7iP998c
+Zk56Quu/Me3nHLvjJa7uibyTFVOtsdf/9vIL/gBQSwECFwsUAAAACADmUJM5GWT2IvUAAADU
+AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHR3JLSVBLBQYAAAAAAQABAD4AAAAr
+AQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Device"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+
+			<Stereotype 
+				name="Scanner" 
+				notes="" 
+				cx="155" 
+				cy="50" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAAZOkjkKTLbo8QAAANQBAAAHABEAc3RyLmRhdFVUDQAHUxxKSVMcSklTHEpJ
+TZBJSwNBEIXfVX9F6FOEENToSTwIOXjXu4yZJQOTiUyPC4r/3e9VwkSaV13LqzVrq0JvqjTT
+Dq1Vr3P9gDO0vXLES7RPGPdg1KB3+HfBydoQ78Ar0lXMqcOXJ9ZWL+Fp1VD1wElkVlgjcsAy
+09wSuya31TfaHOaVbnkLcIl1MXWuyK3hdbwNE3ZgiIzrY8bpX/Gfckt4BRv1yJEKH9Q6bOpL
+zCee0dJjFlUfiWc9I5uwU/CdUUS9PjZK9Etao3km+91hT/QBlORX+sKXYh7DXdzH92+OOyc9
+xWV7nu+zRO6YxNW9kW+yYKsV8ubfXX7BH1BLAQIXCxQAAAAIAAZOkjkKTLbo8QAAANQBAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdTHEpJUEsFBgAAAAABAAEAPgAAACcBAAAA
+AA==</Image>
+				<AppliesTo>
+					<Apply type="Device"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+
+			<Stereotype 
+				name="Device" 
+				notes="" 
+				cx="150" 
+				cy="50" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Redefinitions>
+					<Redefine type="Device"/>
+				</Redefinitions>
+			</Stereotype>
+
+			<Stereotype 
+				name="CommunicationNetwork" 
+				notes="communication network that connects localities, servers, etc" 
+				cx="300" 
+				cy="50" 
+				bgcolor="15466495"  
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIABhHhTn+GR5uzgAAAIIBAAAHABEAc3RyLmRhdFVUDQAHzOw4SczsOEnM7DhJ
+TZDdDsFAEEa/W55CelVJIyhxIa7cewVBWzb6I22REO/u7JCSzczO7J5vdmYbnbTTRakGKoic
+SvX1xHpElRq7T4juECusVa0r/NKYRgfuc2yP91U8k9lZ01Enbe3E6UjVDxOgTMlafE3mSc8m
+5BlapwdRCBlrzIo0xw807F5O0WZwOetAhzlWm2IKO0fx22P2nzaB2zFRiW+pcKPWZ1L/E2HH
+OfuT47ePQGteKFhXlM4m9+qKbGPd3K2Ds0ZkBb0F1nWkybeLBX72N8ULewNQSwECFwsUAAAA
+CAAYR4U5/hkebs4AAACCAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHzOw4SVBL
+BQYAAAAAAQABAD4AAAAEAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Node">
+						<Property name="isExecutionEnvironment" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>	
+				
+			<Stereotype 
+				name="ExecutionEnvironment" 
+				notes="an execution environment (operation system, dbms, application server, etc)" 
+				cx="185" 
+				cy="65" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAHSyhzl6Ok95AwEAAPoBAAAHABEAc3RyLmRhdFVUDQAH/ks8Sf5LPEn+SzxJ
+VZHdSsNAEIXPrT5F2KsKImrwB6QXgoU+gPeSNj8NJGnJplUqvrvfTEqqhDM7s3PmzMwmaqNM
+OxVK1OLV6nSpb3CBt1X0fI73CWMOBvXaw39xTtSafANWWFMxTul3cWJt9OE3tSpUR06gsiAa
+sD2RMY2bE5fU1jrizWDe6VkPutYjNtHV1LmgtoTX8K2ZsAG9V9zDtIrzmf6rzeFlbNRhBxQO
+aI2b2kvMJp6hpkfiqkvyUe/YyuPgfKvIXK/zjQL9gt7wbCa7tw5bsq8gp77QF3fB5zFYl/HF
+rZv9heq0edACrintJ5UFOOD3HrWnN7zhbJnUutvGqW7dph4//dn9B2v4BVBLAQIXCxQAAAAI
+AHSyhzl6Ok95AwEAAPoBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf+SzxJUEsF
+BgAAAAABAAEAPgAAADkBAAAAAA==</Image>
+				<Redefinitions>
+					<Redefine type="ExecutionEnvironment"/>
+				</Redefinitions>
+				<AppliesTo/>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>				
+			</Stereotype>
+
+			<Stereotype 
+				name="Platform" 
+				notes="a package of nodes representing a reusable hardware/software infrastructure combination" 
+				cx="200" 
+				cy="100" 
+				bgcolor="16448235" 
+				bordercolor="12829635" 
+				borderwidth="1" >
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+			</Stereotype>
+
+			<Stereotype name="communicates" notes="">
+				<AppliesTo>
+					<Apply type="CommunicationPath">
+						<Property name="direction" value="Bi-Directional"/>
+					</Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Association" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Generalization" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Generalization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="isSubstitutable" value=""/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Nesting" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Nesting">
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+		</Stereotypes>
+			
+		<TaggedValueTypes/>
+		
+	</Content>
+	
+</UMLProfile>

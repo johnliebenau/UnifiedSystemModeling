@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="3A1D8D09-B" name="BusinessEnvironment" version="1.0" notes="BusinessEnvironment"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Business" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="SysBoundary"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="BusinessInput" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHA/+zwg5l7ACwEAAJQCAAAHABEAc3RyLmRhdFVUDQAH7JFOTOyRTkzskU5M
+nZFPS8NAEMXftYLfoeRUQaRaioJ4UHrQs36BmGxrILXFTf+g9Lv7m9lEzU0lzO7s7Hszb1+i
+XpRrraChlmSVXnWsI334OuC0UnRMSbYDdUM0etMGznWLiipA1MQzq/Uy1Nxr8QuXsBX1oUbE
+PfdRT6wLP2euxLTk9M+ZXZBnOiVmZAUKrN7QY8XtLVHCD9pTy+hw4pHmdC8YgAnMfIT1TmaT
+znWpKX0nunJG9w57SaDXHGzNZxNrn2qsCzjG+t4n7H1+6Qp3KEs6t/RL/tm7Rj1s5Y4vWk2Z
+7vA0+h8wTtQD2ZpaozMqS1SZFzY5ae+0/FRwIFIWWu9/78ZU4z+6Me65Yft/3Tj4ntZPUEsB
+AhcLFAAAAAgAcD/7PCDmXsALAQAAlAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B+yRTkxQSwUGAAAAAAEAAQA+AAAAQQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Object"/>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="Appearance" description="" unit="" values="" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="BusinessOutput" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAA5A+zwx9v1PDAEAAJYCAAAHABEAc3RyLmRhdFVUDQAHN5JOTDeSTkw3kk5M
+nZFBS8NAEIXftYL/oeTUgki1FAvFg+LBmwf9AzHZ1kDaihutKP3vfjObqLlpKTM7O3lv5u1r
+1JNyPStoqDVVpY2OdaRPzwNuW0XHlFQ7UJdEoxe9wlm0qKgCRE08km2WoZbei9+4hK3oDzUi
+bvke9UBe+T1zJaYlZ37O7oI60wlxQ1WgwPoNM7Z8vSJK+EHv9DImjD3Snu4FAzCBnfewPqhs
+05kuNGPuVHNndO+wlwRmLcHW/Gxj7VuNdQ7HWD/nlLPPL13hDmVJ5xvzkn/2rlEPW7njq1ZT
+pms8jf4PGCfqjnsDz/IpvTW6zA3bndR3an5r2BOpCq37f/djpsk//Zj0/LDzUD/2fqb8BVBL
+AQIXCxQAAAAIAA5A+zwx9v1PDAEAAJYCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAc3kk5MUEsFBgAAAAABAAEAPgAAAEIBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Object"/>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="Appearance" description="" unit="" values="" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="BusinessService" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAE6otTpc5ZxwBwEAAHoCAAAHABEAc3RyLmRhdFVUDQAHX8EVSl/BFUpfwRVK
+nZDNTgJBEITrik9B9oSJIfwENSEcNB646wssuyNusvyEWcFoeHe/7lkFb2pIzTTT1V21FfWi
+XFsFdbWiqrTWhT5Ah2qj6P2S6gBjBhrt9Ap/6pyogn4NFpy2xTjP/ha/WelnVUWvqx6Yw4l6
+4lz6/8x9mJMchRz1gjrTFXigKvBg7w07NnTvQMl80BtvGRsuHaaS/HfoB/QemXinMpWhbjRh
+51i3zv7yZ14buBW+a9eqXc9mRkzYzOkec59Pl+7sgKPkb8+2lJx9T++MWXnKy9ZNpnuyjJ66
+TUS8BnbtebGv74MVriwFU07q1+15cnBs0w1t6r/LYKLBnzIY/MjA7v9kcOQ0fAJQSwECFwsU
+AAAACABOqLU6XOWccAcBAAB6AgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHX8EV
+SlBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Competitor" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="ConsumerRequirement" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADBr8DxuVE4YEAEAAKgCAAAHABEAc3RyLmRhdFVUDQAHxF1ATMRdQEzEXUBM
+nZFPS8NAEMXftYLfoeRUQaRaioXSg+jBs/oFYpLWhbTVbrSi9Lv7m9lom5tKmD87+2bm7UvU
+k3I9q1JfS7KglY51pE/3PU5rRceUZFtQM6zRRq/0TFtUVAGixh7xNstQc6/FA1z6Uh6472uA
+3YKLesAv/Jw5I+OUsyeHQ0Ge6RS7IStgYvWGGWtur7CS/krv1DImnLilPd8v6YGp2HlP1weZ
+bTrXpcbMHWniHXuexroBHXhB7Rtr32pdF/RY1z6OiN3+0hluYZZ4vjEv6WjvGnSwwZVftJwy
+XfurIgovqW10h3/hFMgrr62Yeeb53HUxFonJpPWHbHY/mlft//i9MmMN/6jMsKOMxf8qs/OY
+/BdQSwECFwsUAAAACAAwa/A8blROGBABAACoAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRh
+dFVUBQAHxF1ATFBLBQYAAAAAAQABAD4AAABGAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+					<Apply type="Object"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="Appearance" description="" unit="" values="" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Customer" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Market Segment" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Priority" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Constraint"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Regulator" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Sponsor/Investor" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Business Actor" baseStereotypes="BusinessActor">
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Supplier" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="conflicts" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="requires" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+
+	<Documentation id="BusAnProf" name="Business Analysis" version="1.0" notes="Business Modeling Profile: Business Analysis"/>
+
+	<Content>
+
+		<Stereotypes>
+		
+			<Stereotype 
+				name="BusinessBoundary" 
+				notes="general boundary point of a business" 
+				metafile="BusinessBoundary.emf" 
+				cx="50" 
+				cy="38">
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+						
+			<Stereotype 
+				name="BusinessWorker" 
+				notes="general worker in a business" 
+				metafile="BusinessWorker.emf" 
+				cx="40" 
+				cy="44">
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+						
+			<Stereotype 
+				name="BusinessEntity" 
+				notes="data or artifact used in a business" 
+				metafile="BusinessEntity.emf" 
+				cx="40" 
+				cy="39">
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessEvent" 
+				notes="event that has significance to a business" 
+				metafile="BusinessEvent.emf" 
+				cx="80" 
+				cy="40">
+				<AppliesTo>
+					<Apply type="Class"></Apply>
+					<Apply type="Object"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="ProcessLayer" 
+				notes="logical layering of business processes">
+				<AppliesTo>
+					<Apply type="Package"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype 
+				name="BusinessProcess" 
+				notes="implementation of a business use-case or supporting business process"				
+				metafile="BusinessProcess.emf"
+				cx="130"
+				cy="60">
+				<AppliesTo>
+					<Apply type="Collaboration"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+
+			<Stereotype name="Generalization" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Generalization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="isSubstitutable" value=""/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+					
+			<Stereotype name="Realization" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Realisation">
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Association" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Unspecified"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Aggregation" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Aggregation">
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="Dependency" notes="">
+				<AppliesTo/>
+				<Redefinitions>
+					<Redefine type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+			<Stereotype name="supports" notes="source element provides support to destination element">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			
+		</Stereotypes>
+			
+		<TaggedValueTypes/>
+		
+	</Content>
+	
+</UMLProfile>
