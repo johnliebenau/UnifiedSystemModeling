@@ -1,0 +1,164 @@
+<project name="BusinessArchitecture" default="all" basedir=".">
+
+  	<!-- set global properties for this build -->
+	<property name="system" value="BusinessArchitecture"/>
+		
+	<!-- root directories -->
+	<property name="workspace.root" value="${basedir}/.."/>
+	<property name="component.root" value="${workspace.root}/${system}"/>
+	<property name="tools.root" value="${workspace.root}/${system}Tools"/>
+  	<property name="sparx.root" location="${component.root}/sparx"/>
+  	<property name="rational.root" location="${component.root}/rational"/>
+  	<property name="build.root" location="${component.root}/build"/>
+  	<property name="dist.root" location="${component.root}/dist"/>
+	
+	
+	<!-- asset name -->	
+	<property name="asset.name" value="${system}TemplatesAndTutorials"/>
+
+	
+	<!-- source directories -->
+	<property name="sparx.profiles" value="${sparx.root}/profiles"/>
+	<property name="sparx.templates" value="${sparx.root}/templates"/>
+	<property name="rational.profiles" value="${rational.root}/profiles"/>
+	
+	<!-- build directory -->
+  	<property name="build.dir" location="${build.root}/${asset.name}"/>
+
+	<!-- distribution -->
+	<property name="dist.file" value="${dist.root}/${asset.name}.zip"/>
+
+  	<target 
+  		name="all" 
+  		depends="clean,init,build,publish"/>
+
+  	<target name="clean">
+    	<delete dir="${build.dir}"/>
+  		<delete file="${dist.file}"/>
+   	</target>
+
+  	<target name="init">
+     	<!-- Create the build directory structure -->
+    	<mkdir dir="${build.dir}"/>
+    	<mkdir dir="${build.dir}/templates"/>
+   		<mkdir dir="${build.dir}/doc"/>
+   		<mkdir dir="${build.dir}/doc/tutorials"/>
+    	<mkdir dir="${build.dir}/doc/references"/>
+    	<mkdir dir="${build.dir}/doc/examples"/>
+    	<mkdir dir="${build.dir}/sparx-profiles"/>
+    	<mkdir dir="${build.dir}/sparx-profiles/BusinessEnvironment"/>
+    	<mkdir dir="${build.dir}/sparx-profiles/BusinessMotivation"/>
+    	<mkdir dir="${build.dir}/sparx-profiles/BusinessUseCase"/>
+    	<mkdir dir="${build.dir}/sparx-profiles/BusinessAnalysis"/>
+    	<mkdir dir="${build.dir}/sparx-profiles/BusinessDesign"/>
+    	<mkdir dir="${build.dir}/sparx-profiles/BusinessDeployment"/>
+    	<mkdir dir="${build.dir}/rational-profiles"/>
+    	<mkdir dir="${build.dir}/rational-profiles/BusinessEnvironment"/>
+    	<mkdir dir="${build.dir}/rational-profiles/BusinessMotivation"/>
+    	<mkdir dir="${build.dir}/rational-profiles/BusinessUseCase"/>
+    	<mkdir dir="${build.dir}/rational-profiles/BusinessAnalysis"/>
+    	<mkdir dir="${build.dir}/rational-profiles/BusinessDesign"/>
+    	<mkdir dir="${build.dir}/rational-profiles/BusinessDeployment"/>
+  	</target>
+
+  	<!-- populate the build directory structure -->
+  	<target name="build">
+  		
+  		<!-- copy BusinessEnvironment profile -->
+  		<copy 
+  			todir="${build.dir}/sparx-profiles/BusinessEnvironment">
+  			<fileset dir="${sparx.profiles}/BusinessEnvironment" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessEnvironment/BusinessEnvironmentProfile.xml"
+  			todir="${build.dir}/sparx-profiles/BusinessEnvironment"/>
+  		 		
+  		<!-- copy BusinessMotivation profile -->
+  		<copy 
+  			todir="${build.dir}/sparx-profiles/BusinessMotivation">
+  			<fileset dir="${sparx.profiles}/BusinessMotivation" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessMotivation/BusinessMotivationProfile.xml"
+  			todir="${build.dir}/sparx-profiles/BusinessMotivation"/>
+  		 		
+  		<!-- copy BusinessUseCase profile -->
+  		<copy 
+  			todir="${build.dir}/sparx-profiles/BusinessUseCase">
+  			<fileset dir="${sparx.profiles}/BusinessUseCase" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessUseCase/BusinessUseCaseProfile.xml"
+  			todir="${build.dir}/sparx-profiles/BusinessUseCase"/>
+  		 		
+  		<!-- copy BusinessAnalysis profile -->
+  		<copy 
+  			todir="${build.dir}/sparx-profiles/BusinessAnalysis">
+  			<fileset dir="${sparx.profiles}/BusinessAnalysis" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-Metafiles.xml"
+  			todir="${build.dir}/sparx-profiles/BusinessAnalysis"/>
+  		<copy 
+  			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-ShapeScripts.xml"
+  			todir="${build.dir}/sparx-profiles/BusinessAnalysis"/>
+  		 		
+  		<!-- copy BusinessDesign profile -->
+  		<copy 
+  			todir="${build.dir}/sparx-profiles/BusinessDesign">
+  			<fileset dir="${sparx.profiles}/BusinessDesign" includes="*.emf"/>
+  		</copy>
+ 		<copy 
+  			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-Metafiles.xml"
+  			todir="${build.dir}/sparx-profiles/BusinessDesign"/>
+  		<copy 
+  			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-ShapeScripts.xml"
+  			todir="${build.dir}/sparx-profiles/BusinessDesign"/>
+  		 		
+  		<!-- copy BusinessDeployment profile -->
+  		<copy 
+  			todir="${build.dir}/sparx-profiles/BusinessDeployment">
+  			<fileset dir="${sparx.profiles}/BusinessDeployment" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessDeployment/BusinessDeploymentProfile-ShapeScript.xml"
+  			todir="${build.dir}/sparx-profiles/BusinessDeployment"/>
+
+  		<!-- copy stereotype icons -->
+ 		<copy 
+  			file="${sparx.profiles}/StereotypeIcons.xml"
+  			todir="${build.dir}/sparx-profiles"/>
+  		
+  		<!-- copy BusinessModelSet template -->
+ 		<copy 
+  			file="${sparx.templates}/BusinessModelSetTemplate.eap"
+  			todir="${build.dir}/templates"/>
+
+  		<!-- copy examples -->
+  		<copy 
+  			todir="${build.dir}/doc/examples">
+  			<fileset dir="${component.root}/doc/examples" includes="*.EAP"/>
+  		</copy>
+
+  		<!-- copy tutorials -->
+  		<copy 
+  			todir="${build.dir}/doc/tutorials">
+  			<fileset dir="${component.root}/doc/tutorials" includes="*.ppt"/>
+  		</copy>
+  		
+  		<!-- copy references -->
+  		<copy 
+  			todir="${build.dir}/doc/references">
+  			<fileset dir="${component.root}/doc/references" includes="*.pdf"/>
+  		</copy>
+  		
+	</target>
+	
+  	<!-- publish asset input distribution zip file -->
+  	<target name="publish">
+  		<zip 
+  			basedir="${build.dir}"
+  			destfile="${dist.file}"/>
+ 	</target>
+		
+</project>
