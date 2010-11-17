@@ -1,17 +1,21 @@
 <cruisecontrol>
-    <project name="connectfour">
+    <project name="UnifiedBusinessModeling">
 
         <listeners>
             <currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
         </listeners>
 
         <bootstrappers>
-            <antbootstrapper anthome="apache-ant-1.7.0" buildfile="projects/${project.name}/build.xml" target="clean" />
+        	<svnbootstrapper
+        		localWorkingCopy="c:/Integration/UnifiedEnterpriseDevelopmentAndOperation/UnifiedBusinessModeling"/>
+            <antbootstrapper 
+            	anthome="apache-ant-1.7.0" 
+            	buildfile="projects/${project.name}/build.xml" 
+            	target="clean"/>
         </bootstrappers>
 
         <modificationset quietperiod="30">
-            <!-- touch any file in connectfour project to trigger a build -->
-            <filesystem folder="projects/${project.name}"/>
+        	
         </modificationset>
 
         <schedule interval="300">
