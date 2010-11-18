@@ -26,7 +26,7 @@
         </log>
 
         <publishers>
-        	<htmlemail
+        	<email
         		mailhost="smtp.gmail.com"
         		mailport="465"
         		username="johnliebenau@gmail.com"
@@ -34,7 +34,7 @@
         		userssl="true"
         		returnaddress="johnliebenau@gmail.com">
         		<map alias="JohnLiebenau" address="johnliebenau@gmail.com"/>
-        	</htmlemail>
+        	</email>
        	</publishers>
 
     </project>
