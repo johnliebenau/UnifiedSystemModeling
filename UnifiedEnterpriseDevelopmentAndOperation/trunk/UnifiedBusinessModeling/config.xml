@@ -26,7 +26,8 @@
         </log>
 
         <publishers>
-        	<htmlemail>
+        	<htmlemail
+        		returnaddress="johnliebenau@gmail.com">
         		<map alias="JohnLiebenau" address="johnliebenau@gmail.com"/>
         	</htmlemail>
        	</publishers>
