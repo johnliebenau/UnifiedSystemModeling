@@ -2,21 +2,23 @@
     <project name="UnifiedBusinessModeling">
 
         <listeners>
-            <currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+            <currentbuildstatuslistener file="${project.name}/logs/status.txt"/>
         </listeners>
 
         <bootstrappers>
         	<svnbootstrapper
-        		localWorkingCopy="c:/Integration/UnifiedEnterpriseDevelopmentAndOperation/UnifiedBusinessModeling"/>
+        		localWorkingCopy="c:/Integration/UnifiedEnterpriseDevelopmentAndOperation/${project.name}"/>
         </bootstrappers>
 
         <modificationset quietperiod="30">
         	<svn
-        		localWorkingCopy="c:/Integration/UnifiedEnterpriseDevelopmentAndOperation/UnifiedBusinessModeling"/>
+        		localWorkingCopy="c:/Integration/UnifiedEnterpriseDevelopmentAndOperation/${project.name}"/>
         </modificationset>
 
-        <schedule interval="300">
-            <ant anthome="apache-ant-1.7.0" buildfile="${project.name}/build.xml"/>
+        <schedule interval="60">
+            <ant 
+            	antscript="c:/Tools/Ant/1.8.1/bin/ant.bat" 
+            	buildfile="${project.name}/build.xml"/>
         </schedule>
 
         <log>
@@ -24,11 +26,10 @@
         </log>
 
         <publishers>
-            <onsuccess>
-            </onsuccess>
-            <onfailure>
-            </onfailure>
-        </publishers>
+        	<htmlemail>
+        		<map alias="JohnLiebenau" address="johnliebenau@gmail.com"/>
+        	</htmlemail>
+       	</publishers>
 
     </project>
 </cruisecontrol>
