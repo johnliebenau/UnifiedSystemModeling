@@ -28,8 +28,10 @@
         <publishers>
         	<htmlemail
         		mailhost="smtp.gmail.com"
+        		mailport="465"
         		username="johnliebenau@gmail.com"
         		password="moonight"
+        		userssl="true"
         		returnaddress="johnliebenau@gmail.com">
         		<map alias="JohnLiebenau" address="johnliebenau@gmail.com"/>
         	</htmlemail>
