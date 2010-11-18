@@ -64,7 +64,7 @@
   		
   		<!-- copy BusinessEnvironment profile -->
   		<copy 
-  			todir="${build.root}/sparx-profiles/BusinessEnvironment">
+  			todir="${build.root}/sparx-profiles/BusinessEnvironmentX">
   			<fileset dir="${sparx.profiles}/BusinessEnvironment" includes="*.emf"/>
   		</copy>
   		<copy 
