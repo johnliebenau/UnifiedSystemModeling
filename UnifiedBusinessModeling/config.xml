@@ -27,7 +27,9 @@
 
         <publishers>
         	<htmlemail
-        		mailhost="gmail.com"
+        		mailhost="smtp.gmail.com"
+        		username="johnliebenau@gmail.com"
+        		password="moonight"
         		returnaddress="johnliebenau@gmail.com">
         		<map alias="JohnLiebenau" address="johnliebenau@gmail.com"/>
         	</htmlemail>
