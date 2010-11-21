@@ -146,7 +146,7 @@
   		<!-- copy references -->
   		<copy 
   			todir="${build.root}/doc/references">
-  			<fileset dir="${component.root}/doc/reference" includes="*.pdf"/>
+  			<fileset dir="${component.root}/doc/referencesX" includes="*.pdf"/>
   		</copy>
   		
 	</target>
