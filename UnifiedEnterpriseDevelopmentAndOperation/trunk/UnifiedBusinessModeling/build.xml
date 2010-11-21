@@ -1,7 +1,5 @@
 <project name="UnifiedBusinessModeling" default="all" basedir=".">
 
-	@#$%#
-	
   	<!-- set global properties for this build -->
 	<property name="component" value="UnifiedBusinessModeling"/>
 		
