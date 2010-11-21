@@ -1,6 +1,5 @@
 <project name="UnifiedBusinessModeling" default="all" basedir=".">
 
-	
   	<!-- set global properties for this build -->
 	<property name="component" value="UnifiedBusinessModeling"/>
 		
@@ -146,7 +145,7 @@
   		<!-- copy references -->
   		<copy 
   			todir="${build.root}/doc/references">
-  			<fileset dir="${component.root}/doc/referencesX" includes="*.pdf"/>
+  			<fileset dir="${component.root}/doc/references" includes="*.pdf"/>
   		</copy>
   		
 	</target>
