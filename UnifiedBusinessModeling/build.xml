@@ -46,6 +46,7 @@
     	<mkdir dir="${build.root}/sparx-profiles/BusinessAnalysis"/>
     	<mkdir dir="${build.root}/sparx-profiles/BusinessDesign"/>
     	<mkdir dir="${build.root}/sparx-profiles/BusinessDeployment"/>
+    	<mkdir dir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
     	<mkdir dir="${build.root}/rational-profiles"/>
     	<mkdir dir="${build.root}/rational-profiles/BusinessEnvironment"/>
     	<mkdir dir="${build.root}/rational-profiles/BusinessMotivation"/>
@@ -53,6 +54,7 @@
     	<mkdir dir="${build.root}/rational-profiles/BusinessAnalysis"/>
     	<mkdir dir="${build.root}/rational-profiles/BusinessDesign"/>
     	<mkdir dir="${build.root}/rational-profiles/BusinessDeployment"/>
+    	<mkdir dir="${build.root}/rational-profiles/UnifiedBusinessModeling"/>
     	<mkdir dir="${dist.root}"/>
   	</target>
 
