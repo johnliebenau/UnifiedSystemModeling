@@ -61,6 +61,11 @@
   	<!-- populate the build directory structure -->
   	<target name="build">
   		
+  		<!-- copy Unified Business Modeling profile -->
+  		<copy 
+  			file="${sparx.profiles}/UnifiedBusinessModeling/UnifiedBusinessModeling.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		
   		<!-- copy BusinessEnvironment profile -->
   		<copy 
   			todir="${build.root}/sparx-profiles/BusinessEnvironment">
@@ -69,7 +74,15 @@
   		<copy 
   			file="${sparx.profiles}/BusinessEnvironment/BusinessEnvironmentProfile.xml"
   			todir="${build.root}/sparx-profiles/BusinessEnvironment"/>
-  		 		
+ 
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessEnvironment" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessEnvironment/BusinessEnvironmentProfile.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		
   		<!-- copy BusinessMotivation profile -->
   		<copy 
   			todir="${build.root}/sparx-profiles/BusinessMotivation">
@@ -79,6 +92,14 @@
   			file="${sparx.profiles}/BusinessMotivation/BusinessMotivationProfile.xml"
   			todir="${build.root}/sparx-profiles/BusinessMotivation"/>
   		 		
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessMotivation" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessMotivation/BusinessMotivationProfile.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		 		
   		<!-- copy BusinessUseCase profile -->
   		<copy 
   			todir="${build.root}/sparx-profiles/BusinessUseCase">
@@ -87,6 +108,14 @@
   		<copy 
   			file="${sparx.profiles}/BusinessUseCase/BusinessUseCaseProfile.xml"
   			todir="${build.root}/sparx-profiles/BusinessUseCase"/>
+  		 		
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessUseCase" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessUseCase/BusinessUseCaseProfile.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
   		 		
   		<!-- copy BusinessAnalysis profile -->
   		<copy 
@@ -99,7 +128,18 @@
   		<copy 
   			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-ShapeScripts.xml"
   			todir="${build.root}/sparx-profiles/BusinessAnalysis"/>
-  		 		
+
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessAnalysis" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-Metafiles.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		<copy 
+  			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-ShapeScripts.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+
   		<!-- copy BusinessDesign profile -->
   		<copy 
   			todir="${build.root}/sparx-profiles/BusinessDesign">
@@ -112,6 +152,17 @@
   			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-ShapeScripts.xml"
   			todir="${build.root}/sparx-profiles/BusinessDesign"/>
   		 		
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessDesign" includes="*.emf"/>
+  		</copy>
+ 		<copy 
+  			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-Metafiles.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		<copy 
+  			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-ShapeScripts.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		 		
   		<!-- copy BusinessDeployment profile -->
   		<copy 
   			todir="${build.root}/sparx-profiles/BusinessDeployment">
@@ -121,10 +172,22 @@
   			file="${sparx.profiles}/BusinessDeployment/BusinessDeploymentProfile-ShapeScript.xml"
   			todir="${build.root}/sparx-profiles/BusinessDeployment"/>
 
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessDeployment" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessDeployment/BusinessDeploymentProfile-ShapeScript.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+
   		<!-- copy stereotype icons -->
  		<copy 
   			file="${sparx.profiles}/StereotypeIcons.xml"
   			todir="${build.root}/sparx-profiles"/>
+  		
+ 		<copy 
+  			file="${sparx.profiles}/StereotypeIcons.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
   		
   		<!-- copy BusinessModelSet template -->
  		<copy 
