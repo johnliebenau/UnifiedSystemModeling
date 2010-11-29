@@ -1,15 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="BusEnvProf" name="Business Environment" version="1.0" notes="Business Modeling Profile: Business Environment"/>
+	<Documentation 
+		id="BusEnvProf" 
+		name="BusinessEnvironment" 
+		version="1.0" 
+		notes="Unified Business Modeling: Business Environment"/>
 	<!-- The profile content -->
 	<Content>
 		<!-- List of stereotypes used in this profile-->
 		<Stereotypes>
 		
+			<!--
 			<Stereotype 
 				name="Customer" 
 				notes="customer of a business" 
-				metafile="Customer.emf" 
+				metafile="Customer.emf"
+				cx="55" 
+				cy="75">
+				<AppliesTo>
+					<Apply type="Actor"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			-->
+			
+			<Stereotype 
+				name="Customer" 
+				notes="customer of a business" 
+				cx="55" 
+				cy="75">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOylLz2pO4qU2wAAAKIBAAAHABEAc3RyLmRhdFVUDQAH2jCRTNowkUzaMJFM
+TZDdasJAEIXPbQu+Q8mVBSnVUBTEG32EPkCx+TOQpJKNCi19934zSXFZ9uzM7DnDmQk66aiz
+Cj2pJarVaaZH/Tg+kH0pOCcnusHacQf1uqDZTqygDEbD/QStl7FKr4WId9KH12pVdB5ZCdqC
+bAB7sn+unTHK+Sn1juqbaI5mqbXetFCqDdlz5KOgTwmz4WQ4bri9a1YoTHN/U95YncM8MmMH
+DvS40m2c3fYzj5i176qa3CTas43guzNFwKvNcqVisx3w0FG9oLL6C9jiMsGFORkneXVcRo5+
+Hf8AUEsBAhcLFAAAAAgA7KUvPak7ipTbAAAAogEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5k
+YXRVVAUAB9owkUxQSwUGAAAAAAEAAQA+AAAAEQEAAAAA</Image>	
+				<AppliesTo>
+					<Apply type="Class"/>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+
+						
+			<Stereotype 
+				name="Prospect" 
+				notes="prospective customer of a business" 
+				metafile="Prospect.emf" 
 				cx="55" 
 				cy="75">
 				<AppliesTo>
@@ -77,6 +120,19 @@
 			</Stereotype>
 			
 			<Stereotype 
+				name="Business" 
+				notes="a business"
+				bgcolor="15466495" 
+				bordercolor="12829635">
+				<AppliesTo>
+					<Apply type="Package"></Apply>
+				</AppliesTo>
+				<Redefinitions/>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+
+			<Stereotype 
 				name="MarketSegment" 
 				notes="segment of a market in which a business competes"
 				bgcolor="15466495" 
@@ -90,20 +146,82 @@
 				<Constraints/>
 			</Stereotype>
 			
+			<!--
 			<Stereotype 
-				name="BusinessRequirement" 
-				notes="condition or situation in which something is required or desired" 
-				metafile="BusinessRequirement.emf" 
+				name="ConsumerRequirement" 
+				notes="requirement expressed by a business service consumer" 
+				metafile="ConsumerRequirement.emf" 
 				cx="60" 
 				cy="50">
 				<AppliesTo>
 					<Apply type="Class"/>
+					<Apply type="Object"/>
 				</AppliesTo>
 				<Redefinitions/>
 				<TaggedValues/>
 				<Constraints/>
 			</Stereotype>
+			-->
 			
+			<Stereotype 
+				name="ConsumerRequirement" 
+				notes="" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1"
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIADBr8DxuVE4YEAEAAKgCAAAHABEAc3RyLmRhdFVUDQAHxF1ATMRdQEzEXUBM
+nZFPS8NAEMXftYLfoeRUQaRaioXSg+jBs/oFYpLWhbTVbrSi9Lv7m9lom5tKmD87+2bm7UvU
+k3I9q1JfS7KglY51pE/3PU5rRceUZFtQM6zRRq/0TFtUVAGixh7xNstQc6/FA1z6Uh6472uA
+3YKLesAv/Jw5I+OUsyeHQ0Ge6RS7IStgYvWGGWtur7CS/krv1DImnLilPd8v6YGp2HlP1weZ
+bTrXpcbMHWniHXuexroBHXhB7Rtr32pdF/RY1z6OiN3+0hluYZZ4vjEv6WjvGnSwwZVftJwy
+XfurIgovqW10h3/hFMgrr62Yeeb53HUxFonJpPWHbHY/mlft//i9MmMN/6jMsKOMxf8qs/OY
+/BdQSwECFwsUAAAACAAwa/A8blROGBABAACoAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRh
+dFVUBQAHxF1ATFBLBQYAAAAAAQABAD4AAABGAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag 
+						name="appearance" 
+						type="enumeration" 
+						description="" 
+						unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype 
+				name="BusinessService" 
+				notes="service provided by the business" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1" 
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAE6otTpc5ZxwBwEAAHoCAAAHABEAc3RyLmRhdFVUDQAHX8EVSl/BFUpfwRVK
+nZDNTgJBEITrik9B9oSJIfwENSEcNB646wssuyNusvyEWcFoeHe/7lkFb2pIzTTT1V21FfWi
+XFsFdbWiqrTWhT5Ah2qj6P2S6gBjBhrt9Ap/6pyogn4NFpy2xTjP/ha/WelnVUWvqx6Yw4l6
+4lz6/8x9mJMchRz1gjrTFXigKvBg7w07NnTvQMl80BtvGRsuHaaS/HfoB/QemXinMpWhbjRh
+51i3zv7yZ14buBW+a9eqXc9mRkzYzOkec59Pl+7sgKPkb8+2lJx9T++MWXnKy9ZNpnuyjJ66
+TUS8BnbtebGv74MVriwFU07q1+15cnBs0w1t6r/LYKLBnzIY/MjA7v9kcOQ0fAJQSwECFwsU
+AAAACABOqLU6XOWccAcBAAB6AgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHX8EV
+SlBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Interface"></Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			
+			<!--
 			<Stereotype 
 				name="BusinessService" 
 				notes="service provided by the business" 
@@ -117,7 +235,6 @@
 				<TaggedValues/>
 				<Constraints/>
 			</Stereotype>
-			
 			<Stereotype 
 				name="BusinessInput" 
 				notes="Input to a business service" 
@@ -131,7 +248,7 @@
 				<TaggedValues/>
 				<Constraints/>
 			</Stereotype>
-			
+
 			<Stereotype 
 				name="BusinessOutput" 
 				notes="Output from a business service" 
@@ -145,10 +262,77 @@
 				<TaggedValues/>
 				<Constraints/>
 			</Stereotype>
+
+			-->
+			
+			<Stereotype 
+				name="BusinessInput" 
+				notes="" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1"
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAHA/+zwg5l7ACwEAAJQCAAAHABEAc3RyLmRhdFVUDQAH7JFOTOyRTkzskU5M
+nZFPS8NAEMXftYLfoeRUQaRaioJ4UHrQs36BmGxrILXFTf+g9Lv7m9lEzU0lzO7s7Hszb1+i
+XpRrraChlmSVXnWsI334OuC0UnRMSbYDdUM0etMGznWLiipA1MQzq/Uy1Nxr8QuXsBX1oUbE
+PfdRT6wLP2euxLTk9M+ZXZBnOiVmZAUKrN7QY8XtLVHCD9pTy+hw4pHmdC8YgAnMfIT1TmaT
+znWpKX0nunJG9w57SaDXHGzNZxNrn2qsCzjG+t4n7H1+6Qp3KEs6t/RL/tm7Rj1s5Y4vWk2Z
+7vA0+h8wTtQD2ZpaozMqS1SZFzY5ae+0/FRwIFIWWu9/78ZU4z+6Me65Yft/3Tj4ntZPUEsB
+AhcLFAAAAAgAcD/7PCDmXsALAQAAlAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B+yRTkxQSwUGAAAAAAEAAQA+AAAAQQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag 
+						name="appearance" 
+						type="enumeration" 
+						description="" 
+						unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+
+			<Stereotype 
+				name="BusinessOutput" 
+				notes="" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
+				borderwidth="1"
+				cx="175"
+				cy="38">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAA5A+zwx9v1PDAEAAJYCAAAHABEAc3RyLmRhdFVUDQAHN5JOTDeSTkw3kk5M
+nZFBS8NAEIXftYL/oeTUgki1FAvFg+LBmwf9AzHZ1kDaihutKP3vfjObqLlpKTM7O3lv5u1r
+1JNyPStoqDVVpY2OdaRPzwNuW0XHlFQ7UJdEoxe9wlm0qKgCRE08km2WoZbei9+4hK3oDzUi
+bvke9UBe+T1zJaYlZ37O7oI60wlxQ1WgwPoNM7Z8vSJK+EHv9DImjD3Snu4FAzCBnfewPqhs
+05kuNGPuVHNndO+wlwRmLcHW/Gxj7VuNdQ7HWD/nlLPPL13hDmVJ5xvzkn/2rlEPW7njq1ZT
+pms8jf4PGCfqjnsDz/IpvTW6zA3bndR3an5r2BOpCq37f/djpsk//Zj0/LDzUD/2fqb8BVBL
+AQIXCxQAAAAIAA5A+zwx9v1PDAEAAJYCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAc3kk5MUEsFBgAAAAABAAEAPgAAAEIBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class"/>
+					<Apply type="Object"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag 
+						name="appearance" 
+						type="enumeration" 
+						description="" 
+						unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+
 			
 			<Stereotype 
 				name="requires" 
-				notes="relationship between business environment actors and Needs">
+				notes="relationship between business service consumers and their requirements">
 				<AppliesTo>
 					<Apply type="Dependency"/>
 				</AppliesTo>
@@ -156,18 +340,7 @@
 				<TaggedValues/>
 				<Constraints/>
 			</Stereotype>
-			
-			<Stereotype 
-				name="desires" 
-				notes="relationship between business environment actors and Wants">
-				<AppliesTo>
-					<Apply type="Dependency"/>
-				</AppliesTo>
-				<Redefinitions/>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-			
+						
 			<Stereotype 
 			name="supports" 
 			notes="source element provides support to destination element">
@@ -181,7 +354,7 @@
 			
 			<Stereotype 
 				name="conflicts" 
-				notes="potential conflict between BusinessRequirements">
+				notes="potential conflict between consumer requirements">
 				<AppliesTo>
 					<Apply type="Association"/>
 				</AppliesTo>
