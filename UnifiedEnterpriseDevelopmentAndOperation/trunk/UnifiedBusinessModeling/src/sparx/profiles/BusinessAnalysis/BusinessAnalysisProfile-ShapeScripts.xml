@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UMLProfile profiletype="uml2">
 
-	<Documentation id="BusAnProf" name="Business Analysis" version="1.0" notes="Business Modeling Profile: Business Analysis"/>
+	<Documentation id="BusAnProf" name="BusinessAnalysis" version="1.0" notes="Unified Business Modeling: Business Analysis"/>
 
 	<Content>
 
@@ -36,8 +36,8 @@ gAAAAABzdHIuZGF0VVQFAAepSjZJUEsFBgAAAAABAAEAPgAAAFEBAAAAAA==</Image>
 			</Stereotype>
 									
 			<Stereotype 
-				name="BusinessWorker" 
-				notes="general worker in a business" 
+				name="BusinessProcessor" 
+				notes="general processing component in a business" 
 				bgcolor="15466495" 
 				bordercolor="12829635" 
 				borderwidth="1" 
@@ -46,14 +46,14 @@ gAAAAABzdHIuZGF0VVQFAAepSjZJUEsFBgAAAAABAAEAPgAAAFEBAAAAAA==</Image>
 				<Image 
 					type="EAShapeScript 1.0" 
 					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
-					dt:dt="bin.base64">UEsDBBQAAAAIAAJIgzmVLcMsCAEAAHgCAAAHABEAc3RyLmRhdFVUDQAHwUo2ScFKNknBSjZJ
-nZBBT8JAEIXfFX4F6QkTYlBC0BAPGg/eNeFc24oNBQxbxWj473wzW7WcMKSZ2dmdN/NeX9Cr
-Ur2pUE9LqlIrdfVNdKjWCt7PqbYgbohaG72DnzomKKNfEc9k22KYF38Lv6j4WVXS66lPPIAJ
-eiLP/Z64DlOSwpDCnlEnGhD3VBka7L1mx5ruLZEzX+iTt4QNZx7GEvV36BfwPTLxRWUsF5po
-zM6Rrhz9o8+01mBLdFfOVTmfzVwyYTN/54izPZ27si2Kor4PtkXn7H/6LWTpLs8bNYnu8DK4
-6zYRNHPWBbeNzslLNJkHxhu5r139sMW/a7wtGs//58D4YMdxB4YHDth5igM7ssUeUEsBAhcL
-FAAAAAgAAkiDOZUtwywIAQAAeAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB8FK
-NklQSwUGAAAAAAEAAQA+AAAAPgEAAAAA</Image>
+					dt:dt="bin.base64">UEsDBBQAAAAIAKRt7Dzv+RGeDAEAAH4CAAAHABEAc3RyLmRhdFVUDQAHjhw7TI4cO0yOHDtM
+nZBBT8JAEIXfFX8F6QkSYhBC0BAPGg8cSeQP1LZik2KNW4VI+O9+M1u1nDRm83Znd97MvH1B
+T0r1okJ9bYlKPetMB9AjqhU8nxPtYFyDRq96g79wTlBGvgIP7NbFOI/+Fr5ZcVlUkutrAJZw
+gtbsG78nrsOUpExImZ4RJxqBO6IMDfbe0KMmewNy6gvteUvoMHTYlKi/R75g3j0VH0Q25UJz
+zeg51aWzv/SZ1gZuie7KZ1U+z2omVFjNzznl7FbnrmyHoqjvnW7ROfvPoMMs3eVNqybRLV4G
+d90qglZ0qv3ndjMF58RblJkTNj0quPI/jDsqjq3DRev833yYnfT43YfxiQ92/seHI7vhE1BL
+AQIXCxQAAAAIAKRt7Dzv+RGeDAEAAH4CAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAeOHDtMUEsFBgAAAAABAAEAPgAAAEIBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class"></Apply>
 					<Apply type="Object"></Apply>
