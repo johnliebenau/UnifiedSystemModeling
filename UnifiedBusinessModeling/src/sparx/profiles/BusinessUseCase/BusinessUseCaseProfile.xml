@@ -2,7 +2,7 @@
 <UMLProfile profiletype="uml2">
 	<Documentation 
 		id="BUseCaseProf" 
-		name="Business Use-Case" 
+		name="BusinessUseCase" 
 		version="1.0" 
 		notes="Business Modeling Profile: Business Use-Case"/>
 		
@@ -77,7 +77,7 @@
 			
 			<Stereotype name="refines" notes="business actor refines definition of customer, etc">
 				<AppliesTo>
-					<Apply type="Realisation"/>
+					<Apply type="Realization"/>
 				</AppliesTo>
 				<Redefinitions/>
 				<TaggedValues/>
