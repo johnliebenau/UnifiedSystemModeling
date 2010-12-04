@@ -1,0 +1,224 @@
+<project name="UnifiedBusinessModeling" default="all" basedir=".">
+
+  	<!-- set global properties for this build -->
+	<property name="component" value="UnifiedBusinessModeling"/>
+		
+	<!-- root directories -->
+	<property name="component.root" value="${basedir}"/>
+	<property name="src.root" value="${component.root}/src"/>
+  	<property name="build.root" location="${component.root}/build"/>
+  	<property name="dist.root" location="${component.root}/dist"/>
+  	<property name="sparx.root" location="${src.root}/sparx"/>
+  	<property name="rational.root" location="${src.root}/rational"/>
+	
+	<!-- source directories -->
+	<property name="sparx.profiles" value="${sparx.root}/profiles"/>
+	<property name="sparx.templates" value="${sparx.root}/templates"/>
+	<property name="rational.profiles" value="${rational.root}/profiles"/>
+	
+	<!-- build directory -->
+  	<property name="build.root" location="${build.root}/${component}"/>
+
+	<!-- distribution -->
+	<property name="dist.file" value="${dist.root}/${component}.zip"/>
+
+  	<target 
+  		name="all" 
+  		depends="clean,init,build,publish"/>
+
+  	<target name="clean">
+    	<delete dir="${build.root}"/>
+  		<delete dir="${dist.root}"/>
+   	</target>
+
+  	<target name="init">
+     	<!-- Create the build directory structure -->
+    	<mkdir dir="${build.root}"/>
+    	<mkdir dir="${build.root}/templates"/>
+   		<mkdir dir="${build.root}/doc"/>
+   		<mkdir dir="${build.root}/doc/tutorials"/>
+    	<mkdir dir="${build.root}/doc/references"/>
+    	<mkdir dir="${build.root}/doc/examples"/>
+    	<mkdir dir="${build.root}/sparx-profiles"/>
+    	<mkdir dir="${build.root}/sparx-profiles/BusinessEnvironment"/>
+    	<mkdir dir="${build.root}/sparx-profiles/BusinessMotivation"/>
+    	<mkdir dir="${build.root}/sparx-profiles/BusinessUseCase"/>
+    	<mkdir dir="${build.root}/sparx-profiles/BusinessAnalysis"/>
+    	<mkdir dir="${build.root}/sparx-profiles/BusinessDesign"/>
+    	<mkdir dir="${build.root}/sparx-profiles/BusinessDeployment"/>
+    	<mkdir dir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+    	<mkdir dir="${build.root}/rational-profiles"/>
+    	<mkdir dir="${build.root}/rational-profiles/BusinessEnvironment"/>
+    	<mkdir dir="${build.root}/rational-profiles/BusinessMotivation"/>
+    	<mkdir dir="${build.root}/rational-profiles/BusinessUseCase"/>
+    	<mkdir dir="${build.root}/rational-profiles/BusinessAnalysis"/>
+    	<mkdir dir="${build.root}/rational-profiles/BusinessDesign"/>
+    	<mkdir dir="${build.root}/rational-profiles/BusinessDeployment"/>
+    	<mkdir dir="${build.root}/rational-profiles/UnifiedBusinessModeling"/>
+    	<mkdir dir="${dist.root}"/>
+  	</target>
+
+  	<!-- populate the build directory structure -->
+  	<target name="build">
+  		
+  		<!-- copy Unified Business Modeling profile -->
+  		<copy 
+  			file="${sparx.profiles}/UnifiedBusinessModeling/UnifiedBusinessModeling.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		
+  		<!-- copy BusinessEnvironment profile -->
+  		<copy 
+  			todir="${build.root}/sparx-profiles/BusinessEnvironment">
+  			<fileset dir="${sparx.profiles}/BusinessEnvironment" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessEnvironment/BusinessEnvironmentProfile.xml"
+  			todir="${build.root}/sparx-profiles/BusinessEnvironment"/>
+ 
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessEnvironment" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessEnvironment/BusinessEnvironmentProfile.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		
+  		<!-- copy BusinessMotivation profile -->
+  		<copy 
+  			todir="${build.root}/sparx-profiles/BusinessMotivation">
+  			<fileset dir="${sparx.profiles}/BusinessMotivation" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessMotivation/BusinessMotivationProfile.xml"
+  			todir="${build.root}/sparx-profiles/BusinessMotivation"/>
+  		 		
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessMotivation" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessMotivation/BusinessMotivationProfile.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		 		
+  		<!-- copy BusinessUseCase profile -->
+  		<copy 
+  			todir="${build.root}/sparx-profiles/BusinessUseCase">
+  			<fileset dir="${sparx.profiles}/BusinessUseCase" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessUseCase/BusinessUseCaseProfile.xml"
+  			todir="${build.root}/sparx-profiles/BusinessUseCase"/>
+  		 		
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessUseCase" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessUseCase/BusinessUseCaseProfile.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		 		
+  		<!-- copy BusinessAnalysis profile -->
+  		<copy 
+  			todir="${build.root}/sparx-profiles/BusinessAnalysis">
+  			<fileset dir="${sparx.profiles}/BusinessAnalysis" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-Metafiles.xml"
+  			todir="${build.root}/sparx-profiles/BusinessAnalysis"/>
+  		<copy 
+  			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-ShapeScripts.xml"
+  			todir="${build.root}/sparx-profiles/BusinessAnalysis"/>
+
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessAnalysis" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-Metafiles.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		<copy 
+  			file="${sparx.profiles}/BusinessAnalysis/BusinessAnalysisProfile-ShapeScripts.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+
+  		<!-- copy BusinessDesign profile -->
+  		<copy 
+  			todir="${build.root}/sparx-profiles/BusinessDesign">
+  			<fileset dir="${sparx.profiles}/BusinessDesign" includes="*.emf"/>
+  		</copy>
+ 		<copy 
+  			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-Metafiles.xml"
+  			todir="${build.root}/sparx-profiles/BusinessDesign"/>
+  		<copy 
+  			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-ShapeScripts.xml"
+  			todir="${build.root}/sparx-profiles/BusinessDesign"/>
+  		 		
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessDesign" includes="*.emf"/>
+  		</copy>
+ 		<copy 
+  			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-Metafiles.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		<copy 
+  			file="${sparx.profiles}/BusinessDesign/BusinessDesignProfile-ShapeScripts.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		 		
+  		<!-- copy BusinessDeployment profile -->
+  		<copy 
+  			todir="${build.root}/sparx-profiles/BusinessDeployment">
+  			<fileset dir="${sparx.profiles}/BusinessDeployment" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessDeployment/BusinessDeploymentProfile-ShapeScript.xml"
+  			todir="${build.root}/sparx-profiles/BusinessDeployment"/>
+
+  		<copy 
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling">
+  			<fileset dir="${sparx.profiles}/BusinessDeployment" includes="*.emf"/>
+  		</copy>
+  		<copy 
+  			file="${sparx.profiles}/BusinessDeployment/BusinessDeploymentProfile-ShapeScript.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+
+  		<!-- copy stereotype icons -->
+ 		<copy 
+  			file="${sparx.profiles}/StereotypeIcons.xml"
+  			todir="${build.root}/sparx-profiles"/>
+  		
+ 		<copy 
+  			file="${sparx.profiles}/StereotypeIcons.xml"
+  			todir="${build.root}/sparx-profiles/UnifiedBusinessModeling"/>
+  		
+  		<!-- copy BusinessModelSet template -->
+ 		<copy 
+  			file="${sparx.templates}/BusinessModelSetTemplate.eap"
+  			todir="${build.root}/templates"/>
+
+  		<!-- copy examples -->
+  		<copy 
+  			todir="${build.root}/doc/examples">
+  			<fileset dir="${component.root}/doc/examples" includes="*.EAP"/>
+  		</copy>
+
+  		<!-- copy tutorials -->
+  		<copy 
+  			todir="${build.root}/doc/tutorials">
+  			<fileset dir="${component.root}/doc/tutorials" includes="*.ppt"/>
+  		</copy>
+  		
+  		<!-- copy references -->
+  		<copy 
+  			todir="${build.root}/doc/references">
+  			<fileset dir="${component.root}/doc/references" includes="*.pdf"/>
+  		</copy>
+  		
+	</target>
+	
+  	<!-- publish asset input distribution zip file -->
+  	<target name="publish">
+  		<zip 
+  			basedir="${build.root}"
+  			destfile="${dist.file}"/>
+ 	</target>
+		
+</project>
