@@ -8,42 +8,6 @@
 		<Stereotypes>
 		
 			<Stereotype 
-				name="BusinessInterface" 
-				notes="an interface supported by a business system" 
-				bgcolor="15779995" 
-				bordercolor="4194304" 
-				borderwidth="1">
-				<AppliesTo>
-					<Apply type="Interface"/>
-				</AppliesTo>
-			</Stereotype>			
-			
-			<Stereotype 
-				name="BusinessSystem" 
-				notes="a complete business or significant division of a business"
-				cx="190"
-				cy="65"
-				bgcolor="15779995"
-				bordercolor="4194304"
-				borderwidth="1">
-				<AppliesTo>
-					<Apply type="Component"></Apply>
-				</AppliesTo>
-				<Redefinitions/>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-			
-			<Stereotype name="Port" notes="">
-				<AppliesTo/>
-				<Redefinitions>
-					<Redefine type="Port"/>
-				</Redefinitions>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-			
-			<Stereotype 
 				name="BusinessRole" 
 				notes="role defined in an organization" 
 				cx="175" 
