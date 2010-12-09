@@ -843,6 +843,42 @@ SVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
 					</Stereotype>			
 						
 					<Stereotype 
+						name="BusinessInterface" 
+						notes="an interface supported by a business subsystem" 
+						bgcolor="15779995" 
+						bordercolor="4194304" 
+						borderwidth="1">
+						<AppliesTo>
+							<Apply type="Interface"/>
+						</AppliesTo>
+					</Stereotype>			
+			
+					<Stereotype 
+						name="BusinessSubsystem" 
+						notes="a significant division or component of a business"
+						cx="190"
+						cy="65"
+						bgcolor="15779995"
+						bordercolor="4194304"
+						borderwidth="1">
+						<AppliesTo>
+							<Apply type="Component"></Apply>
+						</AppliesTo>
+						<Redefinitions/>
+						<TaggedValues/>
+						<Constraints/>
+					</Stereotype>
+			
+					<Stereotype name="Port" notes="">
+						<AppliesTo/>
+						<Redefinitions>
+							<Redefine type="Port"/>
+						</Redefinitions>
+						<TaggedValues/>
+						<Constraints/>
+					</Stereotype>
+			
+					<Stereotype 
 						name="ProcessLayer" 
 						notes="logical layering of business processes" 
 						cx="600" 
@@ -974,42 +1010,6 @@ ZGF0VVQFAAcMhzZJUEsFBgAAAAABAAEAPgAAAKYAAAAAAA==</Image>
 
 				<Stereotypes>
 		
-					<Stereotype 
-						name="BusinessInterface" 
-						notes="an interface supported by a business subsystem" 
-						bgcolor="15779995" 
-						bordercolor="4194304" 
-						borderwidth="1">
-						<AppliesTo>
-							<Apply type="Interface"/>
-						</AppliesTo>
-					</Stereotype>			
-			
-					<Stereotype 
-						name="BusinessSubsystem" 
-						notes="a significant division or component of a business"
-						cx="190"
-						cy="65"
-						bgcolor="15779995"
-						bordercolor="4194304"
-						borderwidth="1">
-						<AppliesTo>
-							<Apply type="Component"></Apply>
-						</AppliesTo>
-						<Redefinitions/>
-						<TaggedValues/>
-						<Constraints/>
-					</Stereotype>
-			
-					<Stereotype name="Port" notes="">
-						<AppliesTo/>
-						<Redefinitions>
-							<Redefine type="Port"/>
-						</Redefinitions>
-						<TaggedValues/>
-						<Constraints/>
-					</Stereotype>
-			
 					<Stereotype 
 						name="OrganizationalRole" 
 						notes="role defined in an organization" 
@@ -6218,6 +6218,9 @@ DAAAAAAAAAAOAAAAFAAAAAAAAAAQAAAAFAAAAA==</Column></DataRow></DataSet></RefData><
 							<Tag name="BusinessAnalysis::BusinessEntity(UML::Object)" description="" values="" default="BusinessEntity"/>
 							<Tag name="BusinessAnalysis::BusinessEvent(UML::Class)" description="" values="" default="BusinessEvent"/>
 							<Tag name="BusinessAnalysis::BusinessEvent(UML::Object)" description="" values="" default="BusinessEvent"/>
+							<Tag name="BusinessAnalysis::BusinessInterface(UML::Interface)" description="" values="" default="BusinessInterface"/>
+							<Tag name="BusinessAnalysis::BusinessSubsystem(UML::Component)" description="" values="" default="BusinessSubsystem"/>
+							<Tag name="BusinessDesign::Port(UML::Port)" description="" values="" default="Port"/>
 							<Tag name="BusinessAnalysis::ProcessLayer(UML::Package)" description="" values="" default="ProcessLayer"/>
 							<Tag name="BusinessAnalysis::BusinessProcess(UML::Collaboration)" description="" values="" default="BusinessProcess"/>
 							<Tag name="BusinessAnalysis::Generalization(UML::Generalization)" description="" values="" default="Generalization"/>
@@ -6253,9 +6256,6 @@ DAAAAAAAAAAOAAAAFAAAAAAAAAAQAAAAFAAAAA==</Column></DataRow></DataSet></RefData><
               				<Apply type="ToolboxPage"/>
             			</AppliesTo>						
             			<TaggedValues>
-							<Tag name="BusinessDesign::BusinessInterface(UML::Interface)" description="" values="" default="BusinessInterface"/>
-							<Tag name="BusinessDesign::BusinessSubsystem(UML::Component)" description="" values="" default="BusinessSubsystem"/>
-							<Tag name="BusinessDesign::Port(UML::Port)" description="" values="" default="Port"/>
 							<Tag name="BusinessDesign::OrganizationalRole(UML::Interface)" description="" values="" default="OrganizationalRole"/>
 							<Tag name="BusinessDesign::OrganizationalUnit(UML::Component)" description="" values="" default="OrganizationalUnit"/>
 							<Tag name="BusinessDesign::Employee(UML::Class)" description="" values="" default="Employee"/>
