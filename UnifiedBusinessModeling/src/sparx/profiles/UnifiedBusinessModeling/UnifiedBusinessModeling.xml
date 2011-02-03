@@ -843,8 +843,8 @@ SVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
 					</Stereotype>			
 						
 					<Stereotype 
-						name="BusinessInterface" 
-						notes="an interface supported by a business subsystem" 
+						name="BusinessCapability" 
+						notes="a cohesive set of functions or capabilities provided/required by a business subsystem" 
 						bgcolor="15779995" 
 						bordercolor="4194304" 
 						borderwidth="1">
@@ -865,15 +865,6 @@ SVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
 							<Apply type="Component"></Apply>
 						</AppliesTo>
 						<Redefinitions/>
-						<TaggedValues/>
-						<Constraints/>
-					</Stereotype>
-			
-					<Stereotype name="Port" notes="">
-						<AppliesTo/>
-						<Redefinitions>
-							<Redefine type="Port"/>
-						</Redefinitions>
 						<TaggedValues/>
 						<Constraints/>
 					</Stereotype>
@@ -6218,9 +6209,8 @@ DAAAAAAAAAAOAAAAFAAAAAAAAAAQAAAAFAAAAA==</Column></DataRow></DataSet></RefData><
 							<Tag name="BusinessAnalysis::BusinessEntity(UML::Object)" description="" values="" default="BusinessEntity"/>
 							<Tag name="BusinessAnalysis::BusinessEvent(UML::Class)" description="" values="" default="BusinessEvent"/>
 							<Tag name="BusinessAnalysis::BusinessEvent(UML::Object)" description="" values="" default="BusinessEvent"/>
-							<Tag name="BusinessAnalysis::BusinessInterface(UML::Interface)" description="" values="" default="BusinessInterface"/>
+							<Tag name="BusinessAnalysis::BusinessCapability(UML::Interface)" description="" values="" default="BusinessCapability"/>
 							<Tag name="BusinessAnalysis::BusinessSubsystem(UML::Component)" description="" values="" default="BusinessSubsystem"/>
-							<Tag name="BusinessDesign::Port(UML::Port)" description="" values="" default="Port"/>
 							<Tag name="BusinessAnalysis::ProcessLayer(UML::Package)" description="" values="" default="ProcessLayer"/>
 							<Tag name="BusinessAnalysis::BusinessProcess(UML::Collaboration)" description="" values="" default="BusinessProcess"/>
 							<Tag name="BusinessAnalysis::Generalization(UML::Generalization)" description="" values="" default="Generalization"/>

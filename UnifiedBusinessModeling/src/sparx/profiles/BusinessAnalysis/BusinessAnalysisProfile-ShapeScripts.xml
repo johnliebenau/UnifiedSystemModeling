@@ -120,8 +120,8 @@ SVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
 			</Stereotype>			
 						
 			<Stereotype 
-				name="BusinessInterface" 
-				notes="an interface supported by a business system" 
+				name="BusinessCapability" 
+				notes="a cohesive set of functions or capabilities provided/required by a business subsystem" 
 				bgcolor="15779995" 
 				bordercolor="4194304" 
 				borderwidth="1">
