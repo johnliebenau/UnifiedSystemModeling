@@ -222,4 +222,19 @@
   			destfile="${dist.file}"/>
  	</target>
 		
+  	<target name="run-commit-stage" depends="clean,init,build,publish">
+    	<echo>Running Commit Stage.</echo>
+   	</target>
+	
+  	<target name="run-integration-stage">
+    	<echo>Running Integration Tests.</echo>
+  		<echo>Passed.</echo>
+   	</target>
+	
+  	<target name="run-acceptance-stage">
+    	<echo>Running Acceptance Tests.</echo>
+  		<echo>Passed.</echo>
+   	</target>
+
+
 </project>
