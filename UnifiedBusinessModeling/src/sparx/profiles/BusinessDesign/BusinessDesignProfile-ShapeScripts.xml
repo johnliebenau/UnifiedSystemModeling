@@ -58,6 +58,7 @@ AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3VAPklQSwUGAAAAAAEAAQA+AAAAWQEAAAAA
 					<Apply type="Component">
 						<Property name="isIndirectlyInstantiated" value="true"/>
 					</Apply>
+					<Apply type="Component instance"/>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
