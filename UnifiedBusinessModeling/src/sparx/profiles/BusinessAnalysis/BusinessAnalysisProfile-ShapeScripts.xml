@@ -115,46 +115,80 @@ SVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
 					<Apply type="Object"></Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+					<Tag 
+						name="appearance" 
+						type="enumeration" 
+						description="" 
+						unit="" 
+						values="DecorationAndText,Text" 
+						default="DecorationAndText"/>
 				</TaggedValues>
 			</Stereotype>			
 						
 			<Stereotype 
 				name="BusinessCapability" 
 				notes="a cohesive set of functions or capabilities provided/required by a business subsystem" 
-				bgcolor="15779995" 
-				bordercolor="4194304" 
+				bgcolor="15466495" 
+				bordercolor="12829635" 
 				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAESRYj5uDz9kIQEAANYCAAAHABEAc3RyLmRhdFVUDQAH+oduTfqHbk36h25N
+nZE7T8NAEISnNRL/IXIVJIQCUQQSouBR0EOPTGyckxyCcobwUP47365tElMFit17zczO7kXN
+lOlFhQaaswt61r729OU54bRQdEzObgXqgqi11Cuc8xYVNQVREY9k0zLUk9/FLdxMD34XVKLc
+oFK4BaeavOTUYZNfa0BvoCFxi0bUPbn0c+odWA8ZChlappjqkLhhN8W53ddoLHi9JHL4hd65
+S1E48GjqdJ0nYApq3sH6ZGeVjnWqCbpjnTlj49W6rEEHuqu8YuVVjXUCx1ibdcza5+fucIWz
+xucbes3cra9hDxv8p8rWU6or/iL6zxkn6tpZ9hfmJqD3oSPe5vizqZiHzk+Tt72sfyZetL+3
++1wmGv1xLqPeXGz971zWvjb5G1BLAQIXCxQAAAAIAESRYj5uDz9kIQEAANYCAAAHAAkAAAAA
+AAAAAAAAgAAAAABzdHIuZGF0VVQFAAf6h25NUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Interface"/>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag 
+						name="appearance" 
+						type="enumeration" 
+						description="" 
+						unit="" 
+						values="DecorationAndText,Text" 
+						default="DecorationAndText"/>
+				</TaggedValues>	
 			</Stereotype>			
 			
 			<Stereotype 
-				name="BusinessSystem" 
+				name="BusinessSubsystem" 
 				notes="a complete business or significant division of a business"
 				cx="190"
 				cy="65"
-				bgcolor="15779995"
-				bordercolor="4194304"
+				bgcolor="15466495" 
+				bordercolor="12829635" 
 				borderwidth="1">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAEiRYj6JsucdAAEAAAACAAAHABEAc3RyLmRhdFVUDQAHHIhuTRyIbk0ciG5N
+XZFLS8NQEIXPVqH/IdxVBRG1KIK4aHHhXveSNo8G0rTkxjf+d7+ZG2iQMCczk3Pmlaitch1U
+KtMOr1GnmU7143hCtFd0ToH3AesBG9TrDc39yIrawGixNWi1jFV5Lk54W716rlFN5cQKaEui
+AeyJEjfxC3IVFRp9481hX+lONzrXLZjpbDJBSYUKZsuzYdYW611zDdc0x/fin7qAmbNdBw7U
+eKda2touM58wEzZ0yrz2E5yoF7D2OLjGVLnX7Hy7QNegRzybzPLWZc/XJVagL/VJLvhUZqmP
+dbK/Uo/bB624u92j8wmjnonXvL8wu+BOF46V97RtzRa6HPG49a/jH1BLAQIXCxQAAAAIAEiR
+Yj6JsucdAAEAAAACAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcciG5NUEsFBgAA
+AAABAAEAPgAAADYBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Component"></Apply>
 				</AppliesTo>
-				<Redefinitions/>
-				<TaggedValues/>
-				<Constraints/>
+				<TaggedValues>
+					<Tag 
+						name="appearance" 
+						type="enumeration" 
+						description="" 
+						unit="" 
+						values="DecorationAndText,Text" 
+						default="DecorationAndText"/>
+				</TaggedValues>
 			</Stereotype>
-			
-			<Stereotype name="Port" notes="">
-				<AppliesTo/>
-				<Redefinitions>
-					<Redefine type="Port"/>
-				</Redefinitions>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-			
+						
 			<Stereotype 
 				name="ProcessLayer" 
 				notes="logical layering of business processes" 
