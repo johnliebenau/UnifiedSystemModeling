@@ -12,10 +12,17 @@
 		
 			<Stereotype 
 				name="BusinessActor" 
-				notes="actor that interacts with a business system" 
-				metafile="BusinessActor.emf" 
-				cx="40" 
-				cy="75">
+				notes="actor that interacts with a business system">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAH5Tlz9dNxg40QAAAI4BAAAHABEAc3RyLmRhdFVUDQAHg1f0ToNX9E6DV/RO
+bZBLCsJAEETfVsE7hGSjIOJCEREXCi79oIK4Ej8xEeIHJ24UT+QRvJw1g2gEF91T011dXTOG
+mCUnQjz2QjsOFMhzcznHRp0tE9WvQkWxalQp06AuXKL15u3cdPTm+HS5YJxaqNPQYU3KkTMV
+VfbS9KVilWw0P/mreXfZhsl4TIRWQsmPy5iF6on2Rdro0XYe1uIdtDXUVv/j1OieMlTNsq3D
+oroTZhlH33edHM+qJI5pdR8E4k/pMVYMheaMhAKe6mZ/5d90wEC/0Xf8LPuueAFQSwECFwsU
+AAAACAB+U5c/XTcYONEAAACOAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHg1f0
+TlBLBQYAAAAAAQABAD4AAAAHAQAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Actor"/>
 				</AppliesTo>
@@ -26,10 +33,17 @@
 
 			<Stereotype 
 				name="BusinessUseCase" 
-				notes="interaction between business system and business actors"
-				metafile="BusinessUseCase.emf"
-				cx="130"
-				cy="60">
+				notes="interaction between business system and business actors">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAPatlz8w3u8Z4QAAANoBAAAHABEAc3RyLmRhdFVUDQAH7/b0Tu/29E7v9vRO
+hVDNCoJgEJxrQe8geimIKIIORZc6RweRjlFpKqhJ2qGiJ+oRerlmV8uPLiH74+7s7OxXIMIO
+OQJYSJnFyNBBG3f1LfjsHOGyfmPWJWqEMYboY0JvoYdZjYx1PqxRNjwyxZyNWfFZWeCCQvkD
+xoKVFU7Kn2g1xJTfL8qjBViSWeKAlpLT5n7RIDaib2Kj6KFerDBuTJjtdad5ZYQt66Ij5GYL
+c73gQFyGkv7Mv8+dlRc1JdbsyIzora52sTHUme+TK1b4ki/6CYdM1YaAr1HiqjodvNj9N+0w
+2/E9BG+iq8vfUEsBAhcLFAAAAAgA9q2XPzDe7xnhAAAA2gEAAAcACQAAAAAAAAAAAACAAAAA
+AHN0ci5kYXRVVAUAB+/29E5QSwUGAAAAAAEAAQA+AAAAFwEAAAAA</Image>
 				<AppliesTo>
 					<Apply type="UseCase"/>
 				</AppliesTo>

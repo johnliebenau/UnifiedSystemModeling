@@ -68,10 +68,18 @@ AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3VAPklQSwUGAAAAAAEAAQA+AAAAWQEAAAAA
 			
 			<Stereotype 
 				name="Employee" 
-				notes="employee of a business" 
-				metafile="Employee.emf" 
-				cx="25" 
-				cy="27">
+				notes="employee of a business">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIABpdmj/NlYcj7gAAAPIBAAAHABEAc3RyLmRhdFVUDQAHLV34Ti1d+E4tXfhO
+hZDNasJQEIXP1oLvIGajUMRaiqC4EbqULqR0WbSmMRA1eONCi0/kI/hy/e4k1YtdSJi5kzNn
+zvw4LTVTrlgNrYhSrVXXg37M17Qg860p+IGoBaunFz3i+8RtDSteatVJxWnqHZ2UyhRkATLW
+Ts7UY14HMtHG1DNDEw34XlHJQTbak4nVwVaoNOnYrewJf32vMxzNe3PBThnR3LqEWy31Ce47
+J/RuaGQzf8Fbq8Bv+fvbrPQOtNAbGV/jJy73nOojmC68yP/L9Y31fMPLTdP3zS6qJ0V0LCeJ
+uUbBPfw+kc5k71VHRDPu5vkhu7zQL1BLAQIXCxQAAAAIABpdmj/NlYcj7gAAAPIBAAAHAAkA
+AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAActXfhOUEsFBgAAAAABAAEAPgAAACQBAAAA
+AA==</Image>
 				<AppliesTo>
 					<Apply type="Class"></Apply>
 					<Apply type="Object"></Apply>
@@ -192,10 +200,18 @@ AAAALwEAAAAA</Image>
 			
 			<Stereotype 
 				name="UserInterfaceClient" 
-				notes="user interface application" 
-				metafile="UserInterfaceClient.emf" 
-				cx="90" 
-				cy="60">
+				notes="user interface application">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAH5Lmj+qnCyv8AAAAAgCAAAHABEAc3RyLmRhdFVUDQAHAz74TgM++E4DPvhO
+hVDNDsFgEJwriXdo2guJCJEQxIWTgziIOErxtZoUjdYB8UQewcuZ3fr5wkGa7reZnd2d2RQb
++Ehg4GDLLMIOJRRx0VjAmpUAU+JnZmWyOqijihajgwp6T16k3eGT42LGORE7IyJrIgMckep0
+wzclMsZep8eKhujym7FicMCISKZZwKkrZkPlGcVrfLesuNQhWuRvMH7ej7KrRvlTy2nMbKm7
+ba8bLIjLnpB7HPTViWx/qXHffvMoajNMWJEe8ZG7n2JuqbPv9HvPtrKaX7xEZ8re+D31Bo8b
+cyWG18twUj8e7qz+6/aY+byb8G12fqEHUEsBAhcLFAAAAAgAfkuaP6qcLK/wAAAACAIAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABwM++E5QSwUGAAAAAAEAAQA+AAAAJgEAAAAA
+</Image>
 				<AppliesTo>
 					<Apply type="Component"></Apply>
 				</AppliesTo>
@@ -206,10 +222,17 @@ AAAALwEAAAAA</Image>
 
 			<Stereotype 
 				name="BatchClient" 
-				notes="batch application" 
-				metafile="BatchClient.emf" 
-				cx="90" 
-				cy="60">
+				notes="batch application">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAGRLmj8iXFku6wAAAPgBAAAHABEAc3RyLmRhdFVUDQAH5j34TuY9+E7mPfhO
+hVDBDsFAEH1XEv/QtBcSESIhiEudxaERR6Fd1aRobB0QX+QT/Jy302LDQZqdmb55M29mNLZY
+IYOCgx2jBHvUUMVVbAURMxsExC+M6mQN0EYTPVoHDYxKXiLVcclxMWefhJUJkYiIjxO0dFf0
+msgUB+meChpjyM9njxwhZ5oIrpjJ0aLfsZdLXaNtXof24z+T3MSap63NUkZr0bJ322JJ3OjE
+1HEwlsnDUlXhyL/XfoXVRHPMmDE1Zu5i2wALazr7Lr/36wur+8XLpKfRTd9d7/CoWEyieK0c
+Z9nHw4PZf9UeoxXvZvg2u7jQE1BLAQIXCxQAAAAIAGRLmj8iXFku6wAAAPgBAAAHAAkAAAAA
+AAAAAAAAgAAAAABzdHIuZGF0VVQFAAfmPfhOUEsFBgAAAAABAAEAPgAAACEBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Component"></Apply>
 				</AppliesTo>
@@ -220,10 +243,17 @@ AAAALwEAAAAA</Image>
 			
 			<Stereotype 
 				name="BusinessServer" 
-				notes="service providing application" 
-				metafile="BusinessServer.emf" 
-				cx="62" 
-				cy="60">
+				notes="service providing application">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIADxKmj9Xupri5QAAAP4BAAAHABEAc3RyLmRhdFVUDQAHujv4Tro7+E66O/hO
+hVC7CsJAEJxWwX+QpFEQ8QEKio29WASxlKgxOUhi8KKg4hf5Cf6cc5sQDy3kuNlldvapEcFH
+hgBNJPQUUjRQx12whj0jB3jkb/RaVI0wQIfYo9/GtNQpyQ5LjYMV6yhmKjJ7MnOcoaV6QKvJ
+LHCU6rGwISZ83yqP9oSLYJeYsKLD7r3y94kf+5nnIWi+tvaL6W2lo71hhA15M0XIvk3MZP4d
+dSly6exUWxaoyeZYMmJyzLTFzh7W1nT2dX6vOBbV8EuXSU3TN66qPuGyYzFJwJvluMo+Ll6M
+/st26fm8m9Hb6uJCb1BLAQIXCxQAAAAIADxKmj9Xupri5QAAAP4BAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAe6O/hOUEsFBgAAAAABAAEAPgAAABsBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Component"></Apply>
 				</AppliesTo>
@@ -234,10 +264,17 @@ AAAALwEAAAAA</Image>
 			
 			<Stereotype 
 				name="Database" 
-				notes="database instance" 
-				metafile="Database.emf" 
-				cx="60" 
-				cy="50">
+				notes="database instance">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAExFmj9uY8+K3wAAAMoBAAAHABEAc3RyLmRhdFVUDQAHjjP4To4z+E6OM/hO
+hVAxCsJAEJxWwT+EpFEQ0UILxUZsxSKIpUSNSSCJwYuFii/yCX7O2U0010nYvcvu7MzsGcQI
+UCCEg4y3BDk6aOOhuYUjOyf4rN956xI1wRB9jJkd9DCrcYlORzXGxYY8CScTVo6sLHCFUfaQ
+p2FlhbOyp1qNMOW3JEfJ2DMMewNGRhaXiqIqMWJuzsbDU7OEsXZKlU1U7K1i7FgX5YjaDubq
++UBcTv0QF/59N6uyuCmxZkdmxHG1p4+t5c5+kUKxwpf+0C94ZKoUQu5f4qY+PbzZ/Tft8Rbw
+PQRvo6vNP1BLAQIXCxQAAAAIAExFmj9uY8+K3wAAAMoBAAAHAAkAAAAAAAAAAAAAgAAAAABz
+dHIuZGF0VVQFAAeOM/hOUEsFBgAAAAABAAEAPgAAABUBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Component"></Apply>
 				</AppliesTo>

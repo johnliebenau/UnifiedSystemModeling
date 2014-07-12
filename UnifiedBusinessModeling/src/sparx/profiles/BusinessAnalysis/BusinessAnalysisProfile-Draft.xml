@@ -21,14 +21,15 @@
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="BusinessBoundary" notes="" cx="90" cy="70" bgcolor="15466495" fontcolor="-1" bordercolor="12829635" borderwidth="1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABJIgzn2K95CGwEAAKgCAAAHABEAc3RyLmRhdFVUDQAHqUo2SalKNkmpSjZJ
-nZHNTsNADITnGp6iyqlICAFVRSXEAcSBO9xRaEK6UkpQN1B+1HfnszclOQIHe73eGXvsjVqp
-0IsqTbQmCnrWgb6wjKhV9PeSaAviEuu00Sv4C8dELXlvsEe8VTHMk+fiD2qlB88E1VRNmBxm
-xa3Db7glZDbygToTTbFb2FH3+NrvuWs21QXcgipWK9cRdkO0RK/lO2q0vF5hJfxK7+RyKhy6
-WZc0a8Z7Rb87GJ9E1uVU55pTc6aFo/cKba4ObGCixns13s84ZzCMM5wzzjG7dGVbFCV9b1RL
-W7Z5piNk8B+pezW5rtl79B8yRuTekrHJbAsfOia/RpftwXon7Se9mkHDrt9v1f/R77Ywp9Jf
-trDvO2zjP1vY4c2+AVBLAQIXCxQAAAAIABJIgzn2K95CGwEAAKgCAAAHAAkAAAAAAAAAAAAA
-gAAAAABzdHIuZGF0VVQFAAepSjZJUEsFBgAAAAABAAEAPgAAAFEBAAAAAA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAw9s0KEf/eIMwEAAN4CAAAHABEAc3RyLmRhdFVUDQAH9oGYUfaBmFH2gZhR
+nZFPS8NAEMXfNX6KklMFEbUURfFg8eDFk3qW2MR0IW2lm1r/0O/ubyapCZ5Uwmx2Z99782Y2
+aqZMLyo00Jxd0EJ7+iQSdktFv8/ZbUBcErVWWoO/cEzUlPuKeGI1FcM8ey5+o2Z69ExQiWqD
+SWEWnGrWFacGmfTWgM5AQ+IGdtQ9a+nn1D2b6wxuhopppTogrtlN8Wv5Go0lt1dEDr/QG7kU
+hX0Pq9L0mnBfUO8Oxgc7q3KsU43RHOnM0TuH1lcNNtBR5bUqr2ecExjG6f4j/n127s42OGr8
+vaLWTNn6GfaQwV+kbN2keoBjMwlkcjIT3iH6i5lCJHOLD+vDJr2Aec73EzUBs/Z52OzedUh+
+jqpNzxw3HR+1PXTOt+2rmLpN4HezG6P0l9nt6nYz/M/stqwWX1BLAQIXCxQAAAAIAAw9s0KE
+f/eIMwEAAN4CAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf2gZhRUEsFBgAAAAAB
+AAEAPgAAAGkBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -39,20 +40,34 @@ gAAAAABzdHIuZGF0VVQFAAepSjZJUEsFBgAAAAABAAEAPgAAAFEBAAAAAA==</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="BusinessCapability" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAESRYj5uDz9kIQEAANYCAAAHABEAc3RyLmRhdFVUDQAH+oduTfqHbk36h25N
-nZE7T8NAEISnNRL/IXIVJIQCUQQSouBR0EOPTGyckxyCcobwUP47365tElMFit17zczO7kXN
-lOlFhQaaswt61r729OU54bRQdEzObgXqgqi11Cuc8xYVNQVREY9k0zLUk9/FLdxMD34XVKLc
-oFK4BaeavOTUYZNfa0BvoCFxi0bUPbn0c+odWA8ZChlappjqkLhhN8W53ddoLHi9JHL4hd65
-S1E48GjqdJ0nYApq3sH6ZGeVjnWqCbpjnTlj49W6rEEHuqu8YuVVjXUCx1ibdcza5+fucIWz
-xucbes3cra9hDxv8p8rWU6or/iL6zxkn6tpZ9hfmJqD3oSPe5vizqZiHzk+Tt72sfyZetL+3
-+1wmGv1xLqPeXGz971zWvjb5G1BLAQIXCxQAAAAIAESRYj5uDz9kIQEAANYCAAAHAAkAAAAA
-AAAAAAAAgAAAAABzdHIuZGF0VVQFAAf6h25NUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEiRYj6JsucdAAEAAAACAAAHABEAc3RyLmRhdFVUDQAHHIhuTRyIbk0ciG5N
+XZFLS8NQEIXPVqH/IdxVBRG1KIK4aHHhXveSNo8G0rTkxjf+d7+ZG2iQMCczk3Pmlaitch1U
+KtMOr1GnmU7143hCtFd0ToH3AesBG9TrDc39yIrawGixNWi1jFV5Lk54W716rlFN5cQKaEui
+AeyJEjfxC3IVFRp9481hX+lONzrXLZjpbDJBSYUKZsuzYdYW611zDdc0x/fin7qAmbNdBw7U
+eKda2touM58wEzZ0yrz2E5yoF7D2OLjGVLnX7Hy7QNegRzybzPLWZc/XJVagL/VJLvhUZqmP
+dbK/Uo/bB624u92j8wmjnonXvL8wu+BOF46V97RtzRa6HPG49a/jH1BLAQIXCxQAAAAIAEiR
+Yj6JsucdAAEAAAACAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcciG5NUEsFBgAA
+AAABAAEAPgAAADYBAAAAAA==</Image>
 				<AppliesTo>
-					<Apply type="Interface"/>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
 				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="BusinessCapabilitySet" notes="" cx="90" cy="70" bgcolor="16764057" fontcolor="-1" bordercolor="6553600" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACJhskIrQrKr1QAAAMwBAAAHABEAc3RyLmRhdFVUDQAHjW+XUY1vl1GNb5dR
+fZHLCsIwEEXvVsF/kHajIPiArsSV4FZBwaUULSpELW1FRPwiP8Gf8yTxVRAZ5iad3jNtJrk2
+ipUqUV07dlvtVVNVF6cVtQlD/ayDjio0Y+fdAzKgcuB5hZ4gA/Wf3EYLKEO/NfWXewm5h0mU
+fXm95lQLjSAMMaSjITM1ILuK1FFLPTRya0TU1Xz38PTE9S+zlrPZRTslJsO9hIph1hDJD/8v
+zn9rDG9PZydmuUBTzVFPl4nUee3JjXMHuimkj59Ewr8Wz7mGuvP2HxmyxtyV9X6cV/IBUEsB
+AhcLFAAAAAgAImGyQitCsqvVAAAAzAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B41vl1FQSwUGAAAAAAEAAQA+AAAACwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="BusinessEntity" notes="" cx="90" cy="70" bgcolor="15466495" fontcolor="-1" bordercolor="12829635" borderwidth="1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADBIgzmQ5/DIBgEAAHgCAAAHABEAc3RyLmRhdFVUDQAH1Eo2SdRKNknUSjZJ
@@ -100,24 +115,6 @@ ZGF0VVQFAAcMhzZJUEsFBgAAAAABAAEAPgAAAKYAAAAAAA==</Image>
 					<Apply type="Collaboration"/>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="BusinessSubsystem" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEiRYj6JsucdAAEAAAACAAAHABEAc3RyLmRhdFVUDQAHHIhuTRyIbk0ciG5N
-XZFLS8NQEIXPVqH/IdxVBRG1KIK4aHHhXveSNo8G0rTkxjf+d7+ZG2iQMCczk3Pmlaitch1U
-KtMOr1GnmU7143hCtFd0ToH3AesBG9TrDc39yIrawGixNWi1jFV5Lk54W716rlFN5cQKaEui
-AeyJEjfxC3IVFRp9481hX+lONzrXLZjpbDJBSYUKZsuzYdYW611zDdc0x/fin7qAmbNdBw7U
-eKda2touM58wEzZ0yrz2E5yoF7D2OLjGVLnX7Hy7QNegRzybzPLWZc/XJVagL/VJLvhUZqmP
-dbK/Uo/bB624u92j8wmjnonXvL8wu+BOF46V97RtzRa6HPG49a/jH1BLAQIXCxQAAAAIAEiR
-Yj6JsucdAAEAAAACAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcciG5NUEsFBgAA
-AAABAAEAPgAAADYBAAAAAA==</Image>
-				<AppliesTo>
-					<Apply type="Component">
-						<Property name="isIndirectlyInstantiated" value="true"/>
-					</Apply>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
-				</TaggedValues>
-			</Stereotype>
 			<Stereotype name="BusinessWorker" notes="" cx="90" cy="70" bgcolor="15466495" fontcolor="-1" bordercolor="12829635" borderwidth="1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAJIgzmVLcMsCAEAAHgCAAAHABEAc3RyLmRhdFVUDQAHwUo2ScFKNknBSjZJ
 nZBBT8JAEIXfFX4F6QkTYlBC0BAPGg/eNeFc24oNBQxbxWj473wzW7WcMKSZ2dmdN/NeX9Cr
@@ -131,6 +128,36 @@ NklQSwUGAAAAAAEAAQA+AAAAPgEAAAAA</Image>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CapabilityPort" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPaOzUJFFIChXAAAAIoAAAAHABEAc3RyLmRhdFVUDQAHfwe6UX8HulF/B7pR
+TY1LCoBADEPfVsE7zFLBleLK0wx+cEAdcUQX4t0NIiKhSWnTNDBgWegwTOocMwkx58MRQZuN
+XvNRaPBiz0oqf0El5D8tpYaM+r1u5bQcyrRKcexKC9/H9HNeqhtQSwECFwsUAAAACAD2js1C
+RRSAoVwAAACKAAAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHfwe6UVBLBQYAAAAA
+AQABAD4AAACSAAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Port">
+						<Property name="isBehavior" value="false"/>
+						<Property name="isConjugated" value="false"/>
+						<Property name="isService" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CapabilityService" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMKOzUJuDz9kIQEAANYCAAAHABEAc3RyLmRhdFVUDQAHOQe6UTkHulE5B7pR
+nZE7T8NAEISnNRL/IXIVJIQCUQQSouBR0EOPTGyckxyCcobwUP47365tElMFit17zczO7kXN
+lOlFhQaaswt61r729OU54bRQdEzObgXqgqi11Cuc8xYVNQVREY9k0zLUk9/FLdxMD34XVKLc
+oFK4BaeavOTUYZNfa0BvoCFxi0bUPbn0c+odWA8ZChlappjqkLhhN8W53ddoLHi9JHL4hd65
+S1E48GjqdJ0nYApq3sH6ZGeVjnWqCbpjnTlj49W6rEEHuqu8YuVVjXUCx1ibdcza5+fucIWz
+xucbes3cra9hDxv8p8rWU6or/iL6zxkn6tpZ9hfmJqD3oSPe5vizqZiHzk+Tt72sfyZetL+3
++1wmGv1xLqPeXGz971zWvjb5G1BLAQIXCxQAAAAIAMKOzUJuDz9kIQEAANYCAAAHAAkAAAAA
+AAAAAAAAgAAAAABzdHIuZGF0VVQFAAc5B7pRUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Interface"/>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="appearance" type="enumeration" description="" unit="" values="DecorationAndText,Text" default="DecorationAndText"/>
