@@ -20,10 +20,17 @@
 				<Stereotypes>
 					<Stereotype 
 						name="Customer" 
-						notes="customer of a business" 
-						metafile="Customer.emf" 
-						cx="55" 
-						cy="75">
+						notes="customer of a business">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIANR4RES9Fmr33gAAAMgBAAAHABEAc3RyLmRhdFVUDQAHAgLxUgIC8VICAvFS
+hVDBCoJQEJxrQf8geimIKAiCokudo4NEx7AyFdSkZ4cKv6hP6OeaXUXtFI+3b5md3dl5BiE8
+ZPBhIWEWIUUPXbw0dnBm5QKX+JNZn6wpxhhixmhhgEXFi7Q7qDg2dpwTsTMiciaywh1Gp/t8
+DZENrjo9VjTAnGetrJyVhJUbRowJp9hUFFW5E8bmbXYoNMo1LU8xs6OqtF2FOBAX5YDaFpa6
+84m8lOqibNfOymiI5tiyIj2ycenTxb61XftHMuXKvLhmv+GoP1Hw6TLHQ/d08GH1X7fDzNOf
+cX7YBe8XUEsBAhcLFAAAAAgA1HhERL0WavfeAAAAyAEAAAcACQAAAAAAAAAAAACAAAAAAHN0
+ci5kYXRVVAUABwIC8VJQSwUGAAAAAAEAAQA+AAAAFAEAAAAA</Image>	
 						<AppliesTo>
 							<Apply type="Actor"/>
 						</AppliesTo>
@@ -33,10 +40,17 @@
 					</Stereotype>
 					<Stereotype 
 						name="Prospect" 
-						notes="prospective customer of a business" 
-						metafile="Prospect.emf" 
-						cx="55" 
-						cy="75">
+						notes="prospective customer of a business">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIABitlz/HrJQF3wAAAMoBAAAHABEAc3RyLmRhdFVUDQAHTPX0Tkz19E5M9fRO
+hVDBCoJAEH3Xgv5B9FIQYVAERZfuUSDRMUxNBTVp7VDRF/UJ/VxvR9G9xbIzw9s3896sQgIf
+JSJYyFmlKDBAHy+JPYR8ucAj/mQ1JGuGOcZYwGU9wqrhpdIdNxwbB85J2ZkSCYlscIeS6RGz
+IrLFVaZngsZY8uxxI6rET4AKE+acU2wqus2dMna58/CWqK8ydspYnUXF3CrBibhWjqltYS2e
+A/IKqkZ0Ybeb1VERrbDji+7Rjus9PRwNd+aPlMLV87KW/YHDSbVCxE0rPMSngy9f/3U7rHz+
+h+ab7HrzH1BLAQIXCxQAAAAIABitlz/HrJQF3wAAAMoBAAAHAAkAAAAAAAAAAAAAgAAAAABz
+dHIuZGF0VVQFAAdM9fROUEsFBgAAAAABAAEAPgAAABUBAAAAAA==</Image>	
 						<AppliesTo>
 							<Apply type="Actor"/>
 						</AppliesTo>
@@ -46,9 +60,17 @@
 					</Stereotype>
 					<Stereotype 
 						name="Supplier" 
-						notes="supplier to a business" metafile="Supplier.emf" 
-						cx="65" 
-						cy="75">
+						notes="supplier to a business">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIACyGlz++Yjet3QAAAMoBAAAHABEAc3RyLmRhdFVUDQAHMrH0TjKx9E4ysfRO
+hVBBCsIwEJyrgn8o7UVBpB5EULx4Fw9FPErV2gbaWkw9qPgin+DnnGxKm5uEbJbZ2ZndaGSI
+USGBh4KZQokB+nhJ7OHMygUR8SezIVkznjHmCJmPsGx4SrrThuNjRx3FTkXkTGSNO7SoJ3w1
+kQ2uop4LmmLBE5FV8RgswQ0TxoIqPh3D5k4Zu7eb4S3RXO3slDM7iou7VYYDceOS0tvDSmY+
+kVeiFme/3cxGTbTGlhXTYya2e0bYO9O5P1IJ1+jlLfuDgErWIeH+NR4yZ4Avq/+6A2Yx/8Pw
+Xbbd/AdQSwECFwsUAAAACAAshpc/vmI3rd0AAADKAQAABwAJAAAAAAAAAAAAAIAAAAAAc3Ry
+LmRhdFVUBQAHMrH0TlBLBQYAAAAAAQABAD4AAAATAQAAAAA=</Image>	
 						<AppliesTo>
 							<Apply type="Actor"/>
 						</AppliesTo>
@@ -58,10 +80,17 @@
 					</Stereotype>
 					<Stereotype 
 						name="SponsorInvestor" 
-						notes="sponsor of or investor in a business" 
-						metafile="Sponsor-Investor.emf" 
-						cx="50" 
-						cy="75">
+						notes="sponsor of or investor in a business">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIAJaElz/U6kFW7AAAANoBAAAHABEAc3RyLmRhdFVUDQAHC670Tguu9E4LrvRO
+hZDNSsRAEITrqrDvEJKLCyoKguCyF28exEMQj7K6MQnkZ3GioOIT+Qi+nF93QnZuEqanU13d
+XTVBlTbaqVCilqxWp4UO9eXxQFsqL8rBP8mOYF3oTMe6JCZaajXxau8uJ06qe+bUdNYgW5Br
+vSn49II7gNyq9+mNo6Wu+HKU9PwF4qtOdEP+7h2DI6fkLVNTFJgKO+fE/b3X9O3RTog8NmRP
+vjV2WekR3JSUbEy0dg/P8Do2F2xOZ6djDKCD7qhYjzkYfed6iNTFL7Rzrs1rZvaPMvdmGwoc
+DvpwnZl+qf7XnZFteA/jx+zR+R9QSwECFwsUAAAACACWhJc/1OpBVuwAAADaAQAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHC670TlBLBQYAAAAAAQABAD4AAAAiAQAAAAA=</Image>	
 						<AppliesTo>
 							<Apply type="Actor"/>
 						</AppliesTo>
@@ -71,10 +100,17 @@
 					</Stereotype>
 					<Stereotype 
 						name="Regulator" 
-						notes="external auditor of a business" 
-						metafile="Regulator.emf" 
-						cx="50" 
-						cy="75">
+						notes="external auditor of a business">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIACSGlz+zcVtr5QAAAMwBAAAHABEAc3RyLmRhdFVUDQAH/rD0Tv6w9E7+sPRO
+hZDNasJQEIXPVqHvEJKNhVIsCEKLG/dSUMRlsTUmgfiDN13U4hP5CH25fjMRvTsJd+7kzJlz
+Zm5QqaX2ypVoQ1Zpqwd19euxoxWVtWbgR7IerIH6etKQmOhRbxde5d3FhZNqjk5FZwWyAhnr
+W8HVc+4AMtHO1WtHC73yTfkvYNZoNdQPegbZoJPiab52Xoi3+zbFyaOdEG1lWp/uE+9V6gPc
+vAvcE4186i94W5xznNPrbm0MoI3eqViPzdxuOtMimi5+k71zTa++ss/KUGodcjZs9ONzZvqj
+eq87I1vyHsaP2e3m/1BLAQIXCxQAAAAIACSGlz+zcVtr5QAAAMwBAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAf+sPROUEsFBgAAAAABAAEAPgAAABsBAAAAAA==</Image>	
 						<AppliesTo>
 							<Apply type="Actor"/>
 						</AppliesTo>
@@ -84,10 +120,17 @@
 					</Stereotype>
 					<Stereotype 
 						name="Competitor" 
-						notes="competitor of a business" 
-						metafile="Competitor.emf" 
-						cx="60" 
-						cy="60">
+						notes="competitor of a business">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIAJ6Glz8spxhk5QAAAM4BAAAHABEAc3RyLmRhdFVUDQAHv7H0Tr+x9E6/sfRO
+hZBBa8JAEIXfVcH/EJKLgpQW6qXFi57FQyg9lqgxBhIVNx60+Iv6E/rn+u0k6N7KsrOzb9/M
+e7NOO2U6KlekmqzUXgP19W2xpw0vW6XgV7IhrAlrrFdipJHeO15p1UXHifVBn5LKEmQDMtNZ
+zrrnnA5koYN1rwwt9Maag9XmpgFtuJ30xK2mU4zqc7dfiI/z4eNm0W8XzFWRrUwpnGynL3Cv
+XqAfaWq+1/D2KOcox/fp2ujM15IXX+Ndt7Om+gzchb9yNK7vV93ZP0ro1CrkTNjoYj4T/fL6
+X3VClvEfnh+y28n/AFBLAQIXCxQAAAAIAJ6Glz8spxhk5QAAAM4BAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAe/sfROUEsFBgAAAAABAAEAPgAAABsBAAAAAA==</Image>	
 						<AppliesTo>
 							<Apply type="Actor"/>
 						</AppliesTo>
@@ -441,39 +484,7 @@ AAABAAEAPgAAADYBAAAAAA==</Image>
 					</TaggedValues>
 				</Stereotype>
 			
-				<Stereotype 
-					name="Policy" 
-					notes="method that defines or constrains aspects of a business and guides current and future decisions" 
-					bgcolor="15466495" 
-					bordercolor="12829635" 
-					borderwidth="1" 
-					cx="175"
-					cy="38">
-					<Image 
-						type="EAShapeScript 1.0" 
-						xmlns:dt="urn:schemas-microsoft-com:datatypes" 
-						dt:dt="bin.base64">UEsDBBQAAAAIAO5RDT1Fs0HbAwEAAIoCAAAHABEAc3RyLmRhdFVUDQAHOxtlTDsbZUw7G2VM
-nZDNSsNQEIXPNoLvULKqIFIbq4K4EFy4FPQFYhLrhdSKN1p/6Lv7zeRqzc66mJ8798ycMxP1
-oFJPajTSgizoUbva0af7jNdS0TE12QrUOdbpWS/0nCVUVAWixe7wNstQ916Lv3BZioG/kcbY
-FZioW/zc37mrMT0lHCX8FXmufeySrEKF1TtmLPm9wGr6G71Ry5mw59bzfG+RgWngvKHrg8yY
-DnWiGXMLnXrHRqMp7kAH1LfO2DqrdU3psa5NLIjD/toVrlDW63xlXn9D22s8wAa/+jxpynXt
-bAHWdx1QXaDDtj9KVrif6njAuf65bJMu/vf9Z5psuf9ksL/F/+6/9tj7L1BLAQIXCxQAAAAI
-AO5RDT1Fs0HbAwEAAIoCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAc7G2VMUEsF
-BgAAAAABAAEAPgAAADkBAAAAAA==</Image>
-					<AppliesTo>
-						<Apply type="Class"></Apply>
-						<Apply type="Object"></Apply>
-					</AppliesTo>
-					<TaggedValues>
-						<Tag 
-							name="appearance" 
-							type="enumeration" 
-							description="" 
-							unit="" 
-							values="DecorationAndText,Text" 
-							default="DecorationAndText"/>
-					</TaggedValues>
-				</Stereotype>
+			    <!--
 			
 				<Stereotype 
 					name="Decision" 
@@ -508,7 +519,7 @@ AAAAAAEAAQA+AAAAOAEAAAAA</Image>
 							default="DecorationAndText"/>
 					</TaggedValues>
 				</Stereotype>
-			
+			    -->
 				<Stereotype 
 					name="Rule" 
 					notes="conclusion or judgment regarding an issue or situation" 
@@ -528,6 +539,41 @@ Ckceqc9u2h6YQM97WO9U1ulUFxqjO9KlM3az2NQBrRnYms861t7VWGdwjPW9jli7/MIdbnCW
 fL6il+7a5hp0sJW/Ttl6ynTH/dtNnxALPNjk518xdL/DTr8tkarQvsr+s49/af09uzno3sF/
 Z9/6mvInUEsBAhcLFAAAAAgAGFINPeCTJfoUAQAArgIAAAcACQAAAAAAAAAAAACAAAAAAHN0
 ci5kYXRVVAUAB2wbZUxQSwUGAAAAAAEAAQA+AAAASgEAAAAA</Image>
+					<AppliesTo>
+						<Apply type="Class"></Apply>
+						<Apply type="Object"></Apply>
+					</AppliesTo>
+					<TaggedValues>
+						<Tag 
+							name="appearance" 
+							type="enumeration" 
+							description="" 
+							unit="" 
+							values="DecorationAndText,Text" 
+							default="DecorationAndText"/>
+					</TaggedValues>
+				</Stereotype>
+				
+				<Stereotype 
+					name="Principle" 
+					notes="fundamental, primary, or general law or truth which guides current and future decisions" 
+					bgcolor="15466495" 
+					bordercolor="12829635" 
+					borderwidth="1" 
+					cx="175"
+					cy="38">
+					<Image 
+						type="EAShapeScript 1.0" 
+						xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+						dt:dt="bin.base64">UEsDBBQAAAAIADqqskIEd01AJAEAAMoCAAAHABEAc3RyLmRhdFVUDQAH6e+XUenvl1Hp75dR
+nZFBS8NAEIXftYL/oeRUQUQtRVE8KB68CIL6A2IS40JqixutKP3vfjMbbdOLImFmZydvZt68
+jXpSrrkqDTUlCnrWtrb06X7AbabomJJoAeoMa/WiV2pOO1RUAaLBHvDWy1CPnotruPSlOPB/
+qBF2BS7qDl/7PXNGxilnTg6HgjjTLnZJVMDE8i09Zvw9x0rqK72Ty+iw45bmfG8yAFMx85aq
+DyKbdKAjTeg71rFXrHga6xZ0YIPGJzY+1aoOqbGq1Tnm7NeXznABs8TzjX5JR9tr1MMGV77u
+OGW6p8rUCWRKMhdoHf1lrEckcw0X26bxbK0Tvhsm2q3Az/0V9rApfUw545k23e/8Ot/lz6tY
+T9v979pNNnr9rp0x6Gv4X+2Wfib/BVBLAQIXCxQAAAAIADqqskIEd01AJAEAAMoCAAAHAAkA
+AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfp75dRUEsFBgAAAAABAAEAPgAAAFoBAAAA
+AA==</Image>
 					<AppliesTo>
 						<Apply type="Class"></Apply>
 						<Apply type="Object"></Apply>
@@ -612,10 +658,17 @@ ci5kYXRVVAUAB2wbZUxQSwUGAAAAAAEAAQA+AAAASgEAAAAA</Image>
 		
 					<Stereotype 
 						name="BusinessActor" 
-						notes="actor that interacts with a business system" 
-						metafile="BusinessActor.emf" 
-						cx="40" 
-						cy="75">
+						notes="actor that interacts with a business system">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIAH5Tlz9dNxg40QAAAI4BAAAHABEAc3RyLmRhdFVUDQAHg1f0ToNX9E6DV/RO
+bZBLCsJAEETfVsE7hGSjIOJCEREXCi79oIK4Ej8xEeIHJ24UT+QRvJw1g2gEF91T011dXTOG
+mCUnQjz2QjsOFMhzcznHRp0tE9WvQkWxalQp06AuXKL15u3cdPTm+HS5YJxaqNPQYU3KkTMV
+VfbS9KVilWw0P/mreXfZhsl4TIRWQsmPy5iF6on2Rdro0XYe1uIdtDXUVv/j1OieMlTNsq3D
+oroTZhlH33edHM+qJI5pdR8E4k/pMVYMheaMhAKe6mZ/5d90wEC/0Xf8LPuueAFQSwECFwsU
+AAAACAB+U5c/XTcYONEAAACOAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHg1f0
+TlBLBQYAAAAAAQABAD4AAAAHAQAAAAA=</Image>
 						<AppliesTo>
 							<Apply type="Actor"/>
 						</AppliesTo>
@@ -626,10 +679,18 @@ ci5kYXRVVAUAB2wbZUxQSwUGAAAAAAEAAQA+AAAASgEAAAAA</Image>
 
 					<Stereotype 
 						name="BusinessUseCase" 
-						notes="interaction between business system and business actors"
-						metafile="BusinessUseCase.emf"
-						cx="130"
-						cy="60">
+						notes="interaction between business system and business actors">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIANS0sUKv5CgI/gAAADoCAAAHABEAc3RyLmRhdFVUDQAHcrGWUXKxllFysZZR
+lZDBSgNBEETrquA/hN2LggSD4EHxomfJIQaPEs24Wdgki7tJUPGL/AR/ztc9azJ4CTJ0T1NT
+1dPVjWaaqFZQT3OqUgsd6VAfng805eVFI/B3qmNYA53rTKe6IPd0oquOWbq+6FiZxnQq0ZYg
+U5AbrdR4/8DdgNxp6f0rRwtdcv6yxkTQLZ3t7hNzemb8bzNYDMi7ezfRp2eLJvFYUT35n6lL
+Q9+YZqVW91SRe+0+WvCaOZfaMFW29TvTIyqbvQD/ZT+jXKAJek24639wYza3rYa8mMb2Ebc6
+0kPiPt1/7VzrV23ZX8rpFH8IOGg7b7m+ed2nzqkm7Nv4KTtu9gdQSwECFwsUAAAACADUtLFC
+r+QoCP4AAAA6AgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHcrGWUVBLBQYAAAAA
+AQABAD4AAAA0AQAAAAA=</Image>
 						<AppliesTo>
 							<Apply type="UseCase"/>
 						</AppliesTo>
@@ -843,8 +904,8 @@ SVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
 					</Stereotype>			
 						
 					<Stereotype 
-						name="BusinessCapability" 
-						notes="a cohesive set of functions or capabilities provided/required by a business subsystem" 
+						name="CapabilityService" 
+						notes="interfacing service of a business capability" 
 						bgcolor="15466495" 
 						bordercolor="12829635" 
 						borderwidth="1">
@@ -874,8 +935,8 @@ AAAAAAAAgAAAAABzdHIuZGF0VVQFAAf6h25NUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
 					</Stereotype>			
 			
 					<Stereotype 
-						name="BusinessSubsystem" 
-						notes="a complete business or significant division of a business"
+						name="BusinessCapability" 
+						notes="business elements (people, processes, and technology) that make up a capability of the business"
 						cx="190"
 						cy="65"
 						bgcolor="15466495" 
@@ -906,6 +967,25 @@ AAABAAEAPgAAADYBAAAAAA==</Image>
 						</TaggedValues>
 					</Stereotype>
 			
+					<Stereotype
+						name="CapabilityPort"
+						notes="window into a business capability accessible through capability services"
+						bgcolor="15466495" 
+						bordercolor="12829635" 
+						borderwidth="1">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIAPaOzUJFFIChXAAAAIoAAAAHABEAc3RyLmRhdFVUDQAHfwe6UX8HulF/B7pR
+TY1LCoBADEPfVsE7zFLBleLK0wx+cEAdcUQX4t0NIiKhSWnTNDBgWegwTOocMwkx58MRQZuN
+XvNRaPBiz0oqf0El5D8tpYaM+r1u5bQcyrRKcexKC9/H9HNeqhtQSwECFwsUAAAACAD2js1C
+RRSAoVwAAACKAAAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHfwe6UVBLBQYAAAAA
+AQABAD4AAACSAAAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Port"/>
+						</AppliesTo>
+					</Stereotype>
+					
 					<Stereotype 
 						name="ProcessLayer" 
 						notes="logical layering of business processes" 
@@ -1117,10 +1197,18 @@ AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3VAPklQSwUGAAAAAAEAAQA+AAAAWQEAAAAA
 			
 					<Stereotype 
 						name="Employee" 
-						notes="employee of a business" 
-						metafile="Employee.emf" 
-						cx="25" 
-						cy="27">
+						notes="employee of a business">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIABpdmj/NlYcj7gAAAPIBAAAHABEAc3RyLmRhdFVUDQAHLV34Ti1d+E4tXfhO
+hZDNasJQEIXP1oLvIGajUMRaiqC4EbqULqR0WbSmMRA1eONCi0/kI/hy/e4k1YtdSJi5kzNn
+zvw4LTVTrlgNrYhSrVXXg37M17Qg860p+IGoBaunFz3i+8RtDSteatVJxWnqHZ2UyhRkATLW
+Ts7UY14HMtHG1DNDEw34XlHJQTbak4nVwVaoNOnYrewJf32vMxzNe3PBThnR3LqEWy31Ce47
+J/RuaGQzf8Fbq8Bv+fvbrPQOtNAbGV/jJy73nOojmC68yP/L9Y31fMPLTdP3zS6qJ0V0LCeJ
+uUbBPfw+kc5k71VHRDPu5vkhu7zQL1BLAQIXCxQAAAAIABpdmj/NlYcj7gAAAPIBAAAHAAkA
+AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAActXfhOUEsFBgAAAAABAAEAPgAAACQBAAAA
+AA==</Image>
 						<AppliesTo>
 							<Apply type="Class"></Apply>
 							<Apply type="Object"></Apply>
@@ -1255,10 +1343,18 @@ AAAALwEAAAAA</Image>
 			
 					<Stereotype 
 						name="UserInterfaceClient" 
-						notes="user interface application" 
-						metafile="UserInterfaceClient.emf" 
-						cx="90" 
-						cy="60">
+						notes="user interface application">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIAH5Lmj+qnCyv8AAAAAgCAAAHABEAc3RyLmRhdFVUDQAHAz74TgM++E4DPvhO
+hVDNDsFgEJwriXdo2guJCJEQxIWTgziIOErxtZoUjdYB8UQewcuZ3fr5wkGa7reZnd2d2RQb
++Ehg4GDLLMIOJRRx0VjAmpUAU+JnZmWyOqijihajgwp6T16k3eGT42LGORE7IyJrIgMckep0
+wzclMsZep8eKhujym7FicMCISKZZwKkrZkPlGcVrfLesuNQhWuRvMH7ej7KrRvlTy2nMbKm7
+ba8bLIjLnpB7HPTViWx/qXHffvMoajNMWJEe8ZG7n2JuqbPv9HvPtrKaX7xEZ8re+D31Bo8b
+cyWG18twUj8e7qz+6/aY+byb8G12fqEHUEsBAhcLFAAAAAgAfkuaP6qcLK/wAAAACAIAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABwM++E5QSwUGAAAAAAEAAQA+AAAAJgEAAAAA
+</Image>
 						<AppliesTo>
 							<Apply type="Component"></Apply>
 						</AppliesTo>
@@ -1269,10 +1365,17 @@ AAAALwEAAAAA</Image>
 
 					<Stereotype 
 						name="BatchClient" 
-						notes="batch application" 
-						metafile="BatchClient.emf" 
-						cx="90" 
-						cy="60">
+						notes="batch application">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIAGRLmj8iXFku6wAAAPgBAAAHABEAc3RyLmRhdFVUDQAH5j34TuY9+E7mPfhO
+hVDBDsFAEH1XEv/QtBcSESIhiEudxaERR6Fd1aRobB0QX+QT/Jy302LDQZqdmb55M29mNLZY
+IYOCgx2jBHvUUMVVbAURMxsExC+M6mQN0EYTPVoHDYxKXiLVcclxMWefhJUJkYiIjxO0dFf0
+msgUB+meChpjyM9njxwhZ5oIrpjJ0aLfsZdLXaNtXof24z+T3MSap63NUkZr0bJ322JJ3OjE
+1HEwlsnDUlXhyL/XfoXVRHPMmDE1Zu5i2wALazr7Lr/36wur+8XLpKfRTd9d7/CoWEyieK0c
+Z9nHw4PZf9UeoxXvZvg2u7jQE1BLAQIXCxQAAAAIAGRLmj8iXFku6wAAAPgBAAAHAAkAAAAA
+AAAAAAAAgAAAAABzdHIuZGF0VVQFAAfmPfhOUEsFBgAAAAABAAEAPgAAACEBAAAAAA==</Image>
 						<AppliesTo>
 							<Apply type="Component"></Apply>
 						</AppliesTo>
@@ -1283,10 +1386,17 @@ AAAALwEAAAAA</Image>
 			
 					<Stereotype 
 						name="BusinessServer" 
-						notes="service providing application" 
-						metafile="BusinessServer.emf" 
-						cx="62" 
-						cy="60">
+						notes="service providing application">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIADxKmj9Xupri5QAAAP4BAAAHABEAc3RyLmRhdFVUDQAHujv4Tro7+E66O/hO
+hVC7CsJAEJxWwX+QpFEQ8QEKio29WASxlKgxOUhi8KKg4hf5Cf6cc5sQDy3kuNlldvapEcFH
+hgBNJPQUUjRQx12whj0jB3jkb/RaVI0wQIfYo9/GtNQpyQ5LjYMV6yhmKjJ7MnOcoaV6QKvJ
+LHCU6rGwISZ83yqP9oSLYJeYsKLD7r3y94kf+5nnIWi+tvaL6W2lo71hhA15M0XIvk3MZP4d
+dSly6exUWxaoyeZYMmJyzLTFzh7W1nT2dX6vOBbV8EuXSU3TN66qPuGyYzFJwJvluMo+Ll6M
+/st26fm8m9Hb6uJCb1BLAQIXCxQAAAAIADxKmj9Xupri5QAAAP4BAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAe6O/hOUEsFBgAAAAABAAEAPgAAABsBAAAAAA==</Image>
 						<AppliesTo>
 							<Apply type="Component"></Apply>
 						</AppliesTo>
@@ -1297,10 +1407,17 @@ AAAALwEAAAAA</Image>
 			
 					<Stereotype 
 						name="Database" 
-						notes="database instance" 
-						metafile="Database.emf" 
-						cx="60" 
-						cy="50">
+						notes="database instance">
+						<Image 
+							type="EAShapeScript 1.0" 
+							xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+							dt:dt="bin.base64">UEsDBBQAAAAIAExFmj9uY8+K3wAAAMoBAAAHABEAc3RyLmRhdFVUDQAHjjP4To4z+E6OM/hO
+hVAxCsJAEJxWwT+EpFEQ0UILxUZsxSKIpUSNSSCJwYuFii/yCX7O2U0010nYvcvu7MzsGcQI
+UCCEg4y3BDk6aOOhuYUjOyf4rN956xI1wRB9jJkd9DCrcYlORzXGxYY8CScTVo6sLHCFUfaQ
+p2FlhbOyp1qNMOW3JEfJ2DMMewNGRhaXiqIqMWJuzsbDU7OEsXZKlU1U7K1i7FgX5YjaDubq
++UBcTv0QF/59N6uyuCmxZkdmxHG1p4+t5c5+kUKxwpf+0C94ZKoUQu5f4qY+PbzZ/Tft8Rbw
+PQRvo6vNP1BLAQIXCxQAAAAIAExFmj9uY8+K3wAAAMoBAAAHAAkAAAAAAAAAAAAAgAAAAABz
+dHIuZGF0VVQFAAeOM/hOUEsFBgAAAAABAAEAPgAAABUBAAAAAA==</Image>
 						<AppliesTo>
 							<Apply type="Component"></Apply>
 						</AppliesTo>
@@ -7910,6 +8027,126 @@ AAABAAAAqgAAAE4AAAABAAAAAQAAAKoAAABOAAAAKQCqAAAAAAAAAAAAAACAPwAAAAAAAAAA
 AACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAwAAAD/////RgAAABwA
 AAAQAAAARU1GKwJAAAAMAAAAAAAAAA4AAAAUAAAAAAAAABAAAAAUAAAA</Column>
 					</DataRow>
+					<DataRow>
+			<Column name="ImageID" value="1427271319"/>
+			<Column name="Name" value="Principle.emf"/>
+			<Column name="Type" value="Metafile"/>
+			<Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+JAAAAAAAgD0AAAAAAAAAAAAAgD0AAAAAAAAAAAIAAABfAAAAOAAAAAIAAAA4AAAAAAAAADgA
+AAAAAAAAACIBABUAAAAAAAAAAACAAAAAAAAAAAAAAAAAACUAAAAMAAAAAgAAACUAAAAMAAAA
+BQAAgFYAAAAwAAAA/v///zQAAABmAAAATgAAAAUAAAAgAKAEIAagBCAGgAMgAIADIACgBCUA
+AAAMAAAABwAAgCUAAAAMAAAAAAAAgCQAAAAkAAAAAACAQQAAAAAAAAAAAACAQQAAAAAAAAAA
+AgAAACgAAAAMAAAAAgAAADoAAAAMAAAACgAAAEYAAAAsAAAAIAAAAEVNRisKQADAHAAAABAA
+AACAAAD/AQAAAAIAUgBgABIAKAAAAAwAAAABAAAAJAAAACQAAAAAAIA9AAAAAAAAAAAAAIA9
+AAAAAAAAAAACAAAAJwAAABgAAAABAAAAAAAAAAAAgAAAAAAAJQAAAAwAAAABAAAAJQAAAAwA
+AAAIAACAVgAAADAAAAACAAAAUgAAAGIAAABkAAAABQAAACAAIAUgAEAGIAZABiAGIAUgACAF
+JQAAAAwAAAAHAACAJQAAAAwAAAAAAACAJAAAACQAAAAAAIBBAAAAAAAAAAAAAIBBAAAAAAAA
+AAACAAAARgAAAJgAAACMAAAARU1GKwhAAAJEAAAAOAAAAAIQwNsAAAAA3gAAAAAAAACrqqo/
+AgAAAAIAAAACAAAAAAAAQAIAAAAAAAAAAhDA2wAAAACZAAD/CEABAzQAAAAoAAAAAhDA2wUA
+AAAAQAAAAgBkAGIAZABiAFIAAgBSAAIAZAAAAQEBgQMDAxVAAQAQAAAABAAAAAAAAAAkAAAA
+JAAAAAAAgD0AAAAAAAAAAAAAgD0AAAAAAAAAAAIAAABfAAAAOAAAAAIAAAA4AAAAAAAAADgA
+AAAAAAAAAAABABUAAAAAAAAAAACZAAAAAAAAAAAAAAAAACUAAAAMAAAAAgAAACUAAAAMAAAA
+BQAAgFYAAAAwAAAAAAAAAFAAAABkAAAAZgAAAAUAAAAgAEAGIAZABiAGIAUgACAFIABABiUA
+AAAMAAAABwAAgCUAAAAMAAAAAAAAgCQAAAAkAAAAAACAQQAAAAAAAAAAAACAQQAAAAAAAAAA
+AgAAACgAAAAMAAAAAgAAAEwAAABkAAAAAQAAAAEAAABjAAAAZQAAAAEAAAABAAAAYwAAAGUA
+AAApAKoAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAiAAAADAAAAP////9GAAAAHAAAABAAAABFTUYrAkAAAAwAAAAAAAAADgAAABQA
+AAAAAAAAEAAAABQAAAA=</Column>
+		</DataRow>
+		<DataRow>
+			<Column name="ImageID" value="892373988"/>
+			<Column name="Name" value="Driver.emf"/>
+			<Column name="Type" value="Metafile"/>
+			<Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+AAAOAAAAFAAAAAAAAAAQAAAAFAAAAA==</Column>
+		</DataRow>
 				</DataSet>
 			</RefData>
 		</Images>
@@ -8048,8 +8285,8 @@ AAAQAAAARU1GKwJAAAAMAAAAAAAAAA4AAAAUAAAAAAAAABAAAAAUAAAA</Column>
 							<Tag name="BusinessEnvironment::Regulator(UML::Actor)" description="a regulator" values="" default="Regulator"/>
 							<Tag name="BusinessEnvironment::Business(UML::Boundary)" description="a business" values="" default="Business"/>
 							<Tag name="BusinessEnvironment::MarketSegment(UML::Package)" description="a market segment" values="" default="MarketSegment"/>
-							<Tag name="BusinessEnvironment::ConsumerRequirement(UML::Class)" description="a consumer requirement" values="" default="ConsumerRequirement"/>
-							<Tag name="BusinessEnvironment::ConsumerRequirement(UML::Object)" description="a consumer requirement" values="" default="ConsumerRequirement"/>
+							<Tag name="BusinessEnvironment::ConsumerRequirement(UML::Class)" description="a consumer requirement" values="" default="ConsumerRequirement (type)"/>
+							<Tag name="BusinessEnvironment::ConsumerRequirement(UML::Object)" description="a consumer requirement" values="" default="ConsumerRequirement (instance)"/>
 							<Tag name="BusinessEnvironment::BusinessService(UML::Interface)" description="a business service" values="" default="BusinessService"/>
 							<Tag name="BusinessEnvironment::BusinessInput(UML::Class)" description="an input to the business" values="" default="BusinessInput"/>
 							<Tag name="BusinessEnvironment::BusinessOutput(UML::Class)" description="an output from the business" values="" default="BusinessOutput"/>
@@ -8057,8 +8294,8 @@ AAAQAAAARU1GKwJAAAAMAAAAAAAAAA4AAAAUAAAAAAAAABAAAAAUAAAA</Column>
 							<Tag name="BusinessEnvironment::supports(UML::Dependency)" description="" values="" default="supports"/>
 							<Tag name="BusinessEnvironment::conflicts(UML::Association)" description="" values="" default="conflicts"/>
 							<Tag name="BusinessEnvironment::Generalization(UML::Generalization)" description="" values="" default="Generalization"/>
-							<Tag name="BusinessEnvironment:Association(UML::Association)" description="" values="" default="Association"/>
-							<Tag name="BusinessEnvironment:BusinessFlow(UML::InformationFlow)" description="" values="" default="BusinessFlow"/>
+							<Tag name="BusinessEnvironment::Association(UML::Association)" description="" values="" default="Association"/>
+							<Tag name="BusinessEnvironment::BusinessFlow(UML::InformationFlow)" description="" values="" default="BusinessFlow"/>
 						</TaggedValues>
 						<Constraints/>
 					</Stereotype>
@@ -8085,20 +8322,18 @@ AAAQAAAARU1GKwJAAAAMAAAAAAAAAA4AAAAUAAAAAAAAABAAAAAUAAAA</Column>
               				<Apply type="ToolboxPage"/>
             			</AppliesTo>						
             			<TaggedValues>
-							<Tag name="BusinessMotivation::Goal(UML::Class)" description="" values="" default="Goal"/>
-							<Tag name="BusinessMotivation::Goal(UML::Object)" description="" values="" default="Goal"/>
-							<Tag name="BusinessMotivation::Objective(UML::Class)" description="" values="" default="Objective"/>
-							<Tag name="BusinessMotivation::Objective(UML::Object)" description="" values="" default="Objective"/>
-							<Tag name="BusinessMotivation::Strategy(UML::Class)" description="" values="" default="Strategy"/>
-							<Tag name="BusinessMotivation::Strategy(UML::Object)" description="" values="" default="Strategy"/>
-							<Tag name="BusinessMotivation::Tactic(UML::Class)" description="" values="" default="Tactic"/>
-							<Tag name="BusinessMotivation::Tactic(UML::Object)" description="" values="" default="Tactic"/>
-							<Tag name="BusinessMotivation::Policy(UML::Class)" description="" values="" default="Policy"/>
-							<Tag name="BusinessMotivation::Policy(UML::Object)" description="" values="" default="Policy"/>
-							<Tag name="BusinessMotivation::Decision(UML::Class)" description="" values="" default="Decision"/>
-							<Tag name="BusinessMotivation::Decision(UML::Object)" description="" values="" default="Decision"/>
-							<Tag name="BusinessMotivation::Rule(UML::Class)" description="" values="" default="Rule"/>
-							<Tag name="BusinessMotivation::Rule(UML::Object)" description="" values="" default="Rule"/>
+							<Tag name="BusinessMotivation::Goal(UML::Class)" description="" values="" default="Goal (type)"/>
+							<Tag name="BusinessMotivation::Goal(UML::Object)" description="" values="" default="Goal (instance)"/>
+							<Tag name="BusinessMotivation::Objective(UML::Class)" description="" values="" default="Objective (type)"/>
+							<Tag name="BusinessMotivation::Objective(UML::Object)" description="" values="" default="Objective (instance)"/>
+							<Tag name="BusinessMotivation::Strategy(UML::Class)" description="" values="" default="Strategy (type)"/>
+							<Tag name="BusinessMotivation::Strategy(UML::Object)" description="" values="" default="Strategy (instance)"/>
+							<Tag name="BusinessMotivation::Tactic(UML::Class)" description="" values="" default="Tactic (type)"/>
+							<Tag name="BusinessMotivation::Tactic(UML::Object)" description="" values="" default="Tactic (instance)"/>
+							<Tag name="BusinessMotivation::Rule(UML::Class)" description="" values="" default="Rule (type)"/>
+							<Tag name="BusinessMotivation::Rule(UML::Object)" description="" values="" default="Rule (instance)"/>
+							<Tag name="BusinessMotivation::Principle(UML::Class)" description="" values="" default="Principle (type)"/>
+							<Tag name="BusinessMotivation::Principle(UML::Object)" description="" values="" default="Principle (instance)"/>
 							<Tag name="BusinessMotivation::supports(UML::Dependency)" description="" values="" default="supports"/>
 							<Tag name="BusinessMotivation::conflicts(UML::Association)" description="" values="" default="conflicts"/>
 							<Tag name="BusinessMotivation::Dependency(UML::Dependency)" description="" values="" default="Dependency"/>
@@ -8162,16 +8397,17 @@ AAAQAAAARU1GKwJAAAAMAAAAAAAAAA4AAAAUAAAAAAAAABAAAAAUAAAA</Column>
               				<Apply type="ToolboxPage"/>
             			</AppliesTo>						
             			<TaggedValues>
-							<Tag name="BusinessAnalysis::BusinessBoundary(UML::Class)" description="" values="" default="BusinessBoundary"/>
-							<Tag name="BusinessAnalysis::BusinessBoundary(UML::Object)" description="" values="" default="BusinessBoundary"/>
-							<Tag name="BusinessAnalysis::BusinessProcessor(UML::Class)" description="" values="" default="BusinessProcessor"/>
-							<Tag name="BusinessAnalysis::BusinessProcessor(UML::Object)" description="" values="" default="BusinessProcessor"/>
-							<Tag name="BusinessAnalysis::BusinessEntity(UML::Class)" description="" values="" default="BusinessEntity"/>
-							<Tag name="BusinessAnalysis::BusinessEntity(UML::Object)" description="" values="" default="BusinessEntity"/>
-							<Tag name="BusinessAnalysis::BusinessEvent(UML::Class)" description="" values="" default="BusinessEvent"/>
-							<Tag name="BusinessAnalysis::BusinessEvent(UML::Object)" description="" values="" default="BusinessEvent"/>
-							<Tag name="BusinessAnalysis::BusinessCapability(UML::Interface)" description="" values="" default="BusinessCapability"/>
-							<Tag name="BusinessAnalysis::BusinessSubsystem(UML::Component)" description="" values="" default="BusinessSubsystem"/>
+							<Tag name="BusinessAnalysis::BusinessBoundary(UML::Class)" description="" values="" default="BusinessBoundary (type)"/>
+							<Tag name="BusinessAnalysis::BusinessBoundary(UML::Object)" description="" values="" default="BusinessBoundary (instance)"/>
+							<Tag name="BusinessAnalysis::BusinessProcessor(UML::Class)" description="" values="" default="BusinessProcessor (type)"/>
+							<Tag name="BusinessAnalysis::BusinessProcessor(UML::Object)" description="" values="" default="BusinessProcessor (instance)"/>
+							<Tag name="BusinessAnalysis::BusinessEntity(UML::Class)" description="" values="" default="BusinessEntity (type)"/>
+							<Tag name="BusinessAnalysis::BusinessEntity(UML::Object)" description="" values="" default="BusinessEntity (instance)"/>
+							<Tag name="BusinessAnalysis::BusinessEvent(UML::Class)" description="" values="" default="BusinessEvent (type)"/>
+							<Tag name="BusinessAnalysis::BusinessEvent(UML::Object)" description="" values="" default="BusinessEvent (instance)"/>
+							<Tag name="BusinessAnalysis::BusinessCapability(UML::Component)" description="" values="" default="BusinessCapability"/>
+							<Tag name="BusinessAnalysis::CapabilityService(UML::Interface)" description="" values="" default="CapabilityService"/>
+							<Tag name="BusinessAnalysis::CapabilityPort(UML::Port)" description="" values="" default="CapabilityPort"/>
 							<Tag name="BusinessAnalysis::ProcessLayer(UML::Package)" description="" values="" default="ProcessLayer"/>
 							<Tag name="BusinessAnalysis::BusinessProcess(UML::Collaboration)" description="" values="" default="BusinessProcess"/>
 							<Tag name="BusinessAnalysis::Generalization(UML::Generalization)" description="" values="" default="Generalization"/>
@@ -8209,8 +8445,8 @@ AAAQAAAARU1GKwJAAAAMAAAAAAAAAA4AAAAUAAAAAAAAABAAAAAUAAAA</Column>
             			<TaggedValues>
 							<Tag name="BusinessDesign::OrganizationalRole(UML::Interface)" description="" values="" default="OrganizationalRole"/>
 							<Tag name="BusinessDesign::OrganizationalUnit(UML::Component)" description="" values="" default="OrganizationalUnit"/>
-							<Tag name="BusinessDesign::Employee(UML::Class)" description="" values="" default="Employee"/>
-							<Tag name="BusinessDesign::Employee(UML::Object)" description="" values="" default="Employee"/>
+							<Tag name="BusinessDesign::Employee(UML::Class)" description="" values="" default="Employee (type)"/>
+							<Tag name="BusinessDesign::Employee(UML::Object)" description="" values="" default="Employee (instance)"/>
 							<Tag name="BusinessDesign::BusinessEnsemble(UML::Component)" description="" values="" default="BusinessEnsemble"/>
 							<Tag name="BusinessDesign::MechanicalSystem(UML::Component)" description="" values="" default="MechanicalSystem"/>
 							<Tag name="BusinessDesign::ApplicationSystem(UML::Component)" description="" values="" default="ApplicationSystem"/>

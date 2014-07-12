@@ -9,39 +9,22 @@
 	<Content>
 		<!-- List of stereotypes used in this profile-->
 		<Stereotypes>
-		
-			<!--
+					
 			<Stereotype 
 				name="Customer" 
-				notes="customer of a business" 
-				metafile="Customer.emf"
-				cx="55" 
-				cy="75">
-				<AppliesTo>
-					<Apply type="Actor"></Apply>
-				</AppliesTo>
-				<Redefinitions/>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-			-->
-			
-			<Stereotype 
-				name="Customer" 
-				notes="customer of a business" 
-				cx="55" 
-				cy="75">
+				notes="customer of a business">
 				<Image 
 					type="EAShapeScript 1.0" 
-					xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOylLz2pO4qU2wAAAKIBAAAHABEAc3RyLmRhdFVUDQAH2jCRTNowkUzaMJFM
-TZDdasJAEIXPbQu+Q8mVBSnVUBTEG32EPkCx+TOQpJKNCi19934zSXFZ9uzM7DnDmQk66aiz
-Cj2pJarVaaZH/Tg+kH0pOCcnusHacQf1uqDZTqygDEbD/QStl7FKr4WId9KH12pVdB5ZCdqC
-bAB7sn+unTHK+Sn1juqbaI5mqbXetFCqDdlz5KOgTwmz4WQ4bri9a1YoTHN/U95YncM8MmMH
-DvS40m2c3fYzj5i176qa3CTas43guzNFwKvNcqVisx3w0FG9oLL6C9jiMsGFORkneXVcRo5+
-Hf8AUEsBAhcLFAAAAAgA7KUvPak7ipTbAAAAogEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5k
-YXRVVAUAB9owkUxQSwUGAAAAAAEAAQA+AAAAEQEAAAAA</Image>	
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIADaElz+9Fmr33gAAAMgBAAAHABEAc3RyLmRhdFVUDQAHR630Tket9E5HrfRO
+hVDBCoJQEJxrQf8geimIKAiCokudo4NEx7AyFdSkZ4cKv6hP6OeaXUXtFI+3b5md3dl5BiE8
+ZPBhIWEWIUUPXbw0dnBm5QKX+JNZn6wpxhhixmhhgEXFi7Q7qDg2dpwTsTMiciaywh1Gp/t8
+DZENrjo9VjTAnGetrJyVhJUbRowJp9hUFFW5E8bmbXYoNMo1LU8xs6OqtF2FOBAX5YDaFpa6
+84m8lOqibNfOymiI5tiyIj2ycenTxb61XftHMuXKvLhmv+GoP1Hw6TLHQ/d08GH1X7fDzNOf
+cX7YBe8XUEsBAhcLFAAAAAgANoSXP70WavfeAAAAyAEAAAcACQAAAAAAAAAAAACAAAAAAHN0
+ci5kYXRVVAUAB0et9E5QSwUGAAAAAAEAAQA+AAAAFAEAAAAA</Image>	
 				<AppliesTo>
-					<Apply type="Class"/>
+					<Apply type="Actor"/>
 				</AppliesTo>
 				<Redefinitions/>
 				<TaggedValues/>
@@ -51,10 +34,17 @@ YXRVVAUAB9owkUxQSwUGAAAAAAEAAQA+AAAAEQEAAAAA</Image>
 						
 			<Stereotype 
 				name="Prospect" 
-				notes="prospective customer of a business" 
-				metafile="Prospect.emf" 
-				cx="55" 
-				cy="75">
+				notes="prospective customer of a business">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIABitlz/HrJQF3wAAAMoBAAAHABEAc3RyLmRhdFVUDQAHTPX0Tkz19E5M9fRO
+hVDBCoJAEH3Xgv5B9FIQYVAERZfuUSDRMUxNBTVp7VDRF/UJ/VxvR9G9xbIzw9s3896sQgIf
+JSJYyFmlKDBAHy+JPYR8ucAj/mQ1JGuGOcZYwGU9wqrhpdIdNxwbB85J2ZkSCYlscIeS6RGz
+IrLFVaZngsZY8uxxI6rET4AKE+acU2wqus2dMna58/CWqK8ydspYnUXF3CrBibhWjqltYS2e
+A/IKqkZ0Ybeb1VERrbDji+7Rjus9PRwNd+aPlMLV87KW/YHDSbVCxE0rPMSngy9f/3U7rHz+
+h+ab7HrzH1BLAQIXCxQAAAAIABitlz/HrJQF3wAAAMoBAAAHAAkAAAAAAAAAAAAAgAAAAABz
+dHIuZGF0VVQFAAdM9fROUEsFBgAAAAABAAEAPgAAABUBAAAAAA==</Image>	
 				<AppliesTo>
 					<Apply type="Actor"></Apply>
 				</AppliesTo>
@@ -65,10 +55,17 @@ YXRVVAUAB9owkUxQSwUGAAAAAAEAAQA+AAAAEQEAAAAA</Image>
 			
 			<Stereotype 
 				name="Supplier" 
-				notes="supplier to a business" 
-				metafile="Supplier.emf" 
-				cx="65" 
-				cy="75">
+				notes="supplier to a business">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIACyGlz++Yjet3QAAAMoBAAAHABEAc3RyLmRhdFVUDQAHMrH0TjKx9E4ysfRO
+hVBBCsIwEJyrgn8o7UVBpB5EULx4Fw9FPErV2gbaWkw9qPgin+DnnGxKm5uEbJbZ2ZndaGSI
+USGBh4KZQokB+nhJ7OHMygUR8SezIVkznjHmCJmPsGx4SrrThuNjRx3FTkXkTGSNO7SoJ3w1
+kQ2uop4LmmLBE5FV8RgswQ0TxoIqPh3D5k4Zu7eb4S3RXO3slDM7iou7VYYDceOS0tvDSmY+
+kVeiFme/3cxGTbTGlhXTYya2e0bYO9O5P1IJ1+jlLfuDgErWIeH+NR4yZ4Avq/+6A2Yx/8Pw
+Xbbd/AdQSwECFwsUAAAACAAshpc/vmI3rd0AAADKAQAABwAJAAAAAAAAAAAAAIAAAAAAc3Ry
+LmRhdFVUBQAHMrH0TlBLBQYAAAAAAQABAD4AAAATAQAAAAA=</Image>	
 				<AppliesTo>
 					<Apply type="Actor"></Apply>
 				</AppliesTo>
@@ -79,10 +76,17 @@ YXRVVAUAB9owkUxQSwUGAAAAAAEAAQA+AAAAEQEAAAAA</Image>
 					
 			<Stereotype 
 				name="SponsorInvestor" 
-				notes="sponsor of or investor in a business" 
-				metafile="Sponsor-Investor.emf" 
-				cx="50" 
-				cy="75">
+				notes="sponsor of or investor in a business">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAJaElz/U6kFW7AAAANoBAAAHABEAc3RyLmRhdFVUDQAHC670Tguu9E4LrvRO
+hZDNSsRAEITrqrDvEJKLCyoKguCyF28exEMQj7K6MQnkZ3GioOIT+Qi+nF93QnZuEqanU13d
+XTVBlTbaqVCilqxWp4UO9eXxQFsqL8rBP8mOYF3oTMe6JCZaajXxau8uJ06qe+bUdNYgW5Br
+vSn49II7gNyq9+mNo6Wu+HKU9PwF4qtOdEP+7h2DI6fkLVNTFJgKO+fE/b3X9O3RTog8NmRP
+vjV2WekR3JSUbEy0dg/P8Do2F2xOZ6djDKCD7qhYjzkYfed6iNTFL7Rzrs1rZvaPMvdmGwoc
+DvpwnZl+qf7XnZFteA/jx+zR+R9QSwECFwsUAAAACACWhJc/1OpBVuwAAADaAQAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHC670TlBLBQYAAAAAAQABAD4AAAAiAQAAAAA=</Image>	
 				<AppliesTo>
 					<Apply type="Actor"></Apply>
 				</AppliesTo>
@@ -93,10 +97,17 @@ YXRVVAUAB9owkUxQSwUGAAAAAAEAAQA+AAAAEQEAAAAA</Image>
 
 			<Stereotype 
 				name="Regulator" 
-				notes="external auditor of a business" 
-				metafile="Regulator.emf" 
-				cx="50" 
-				cy="75">
+				notes="external auditor of a business">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIACSGlz+zcVtr5QAAAMwBAAAHABEAc3RyLmRhdFVUDQAH/rD0Tv6w9E7+sPRO
+hZDNasJQEIXPVqHvEJKNhVIsCEKLG/dSUMRlsTUmgfiDN13U4hP5CH25fjMRvTsJd+7kzJlz
+Zm5QqaX2ypVoQ1Zpqwd19euxoxWVtWbgR7IerIH6etKQmOhRbxde5d3FhZNqjk5FZwWyAhnr
+W8HVc+4AMtHO1WtHC73yTfkvYNZoNdQPegbZoJPiab52Xoi3+zbFyaOdEG1lWp/uE+9V6gPc
+vAvcE4186i94W5xznNPrbm0MoI3eqViPzdxuOtMimi5+k71zTa++ss/KUGodcjZs9ONzZvqj
+eq87I1vyHsaP2e3m/1BLAQIXCxQAAAAIACSGlz+zcVtr5QAAAMwBAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAf+sPROUEsFBgAAAAABAAEAPgAAABsBAAAAAA==</Image>	
 				<AppliesTo>
 					<Apply type="Actor"></Apply>
 				</AppliesTo>
@@ -107,10 +118,17 @@ YXRVVAUAB9owkUxQSwUGAAAAAAEAAQA+AAAAEQEAAAAA</Image>
 			
 			<Stereotype 
 				name="Competitor" 
-				notes="competitor of a business" 
-				metafile="Competitor.emf" 
-				cx="60" 
-				cy="60">
+				notes="competitor of a business">
+				<Image 
+					type="EAShapeScript 1.0" 
+					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
+					dt:dt="bin.base64">UEsDBBQAAAAIAJ6Glz8spxhk5QAAAM4BAAAHABEAc3RyLmRhdFVUDQAHv7H0Tr+x9E6/sfRO
+hZBBa8JAEIXfVcH/EJKLgpQW6qXFi57FQyg9lqgxBhIVNx60+Iv6E/rn+u0k6N7KsrOzb9/M
+e7NOO2U6KlekmqzUXgP19W2xpw0vW6XgV7IhrAlrrFdipJHeO15p1UXHifVBn5LKEmQDMtNZ
+zrrnnA5koYN1rwwt9Maag9XmpgFtuJ30xK2mU4zqc7dfiI/z4eNm0W8XzFWRrUwpnGynL3Cv
+XqAfaWq+1/D2KOcox/fp2ujM15IXX+Ndt7Om+gzchb9yNK7vV93ZP0ro1CrkTNjoYj4T/fL6
+X3VClvEfnh+y28n/AFBLAQIXCxQAAAAIAJ6Glz8spxhk5QAAAM4BAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAe/sfROUEsFBgAAAAABAAEAPgAAABsBAAAAAA==</Image>	
 				<AppliesTo>
 					<Apply type="Actor"></Apply>
 				</AppliesTo>
@@ -146,31 +164,12 @@ YXRVVAUAB9owkUxQSwUGAAAAAAEAAQA+AAAAEQEAAAAA</Image>
 				<Constraints/>
 			</Stereotype>
 			
-			<!--
-			<Stereotype 
-				name="ConsumerRequirement" 
-				notes="requirement expressed by a business service consumer" 
-				metafile="ConsumerRequirement.emf" 
-				cx="60" 
-				cy="50">
-				<AppliesTo>
-					<Apply type="Class"/>
-					<Apply type="Object"/>
-				</AppliesTo>
-				<Redefinitions/>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-			-->
-			
 			<Stereotype 
 				name="ConsumerRequirement" 
 				notes="" 
 				bgcolor="15466495" 
 				bordercolor="12829635" 
-				borderwidth="1"
-				cx="175"
-				cy="38">
+				borderwidth="1">
 				<Image 
 					type="EAShapeScript 1.0" 
 					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
@@ -199,9 +198,7 @@ dFVUBQAHxF1ATFBLBQYAAAAAAQABAD4AAABGAQAAAAA=</Image>
 				notes="service provided by the business" 
 				bgcolor="15466495" 
 				bordercolor="12829635" 
-				borderwidth="1" 
-				cx="175"
-				cy="38">
+				borderwidth="1">
 				<Image 
 					type="EAShapeScript 1.0" 
 					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
@@ -221,58 +218,12 @@ SlBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
 				</TaggedValues>
 			</Stereotype>
 			
-			<!--
-			<Stereotype 
-				name="BusinessService" 
-				notes="service provided by the business" 
-				metafile="BusinessService.emf" 
-				cx="130" 
-				cy="80">
-				<AppliesTo>
-					<Apply type="Interface"/>
-				</AppliesTo>
-				<Redefinitions/>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-			<Stereotype 
-				name="BusinessInput" 
-				notes="Input to a business service" 
-				metafile="BusinessInput.emf" 
-				cx="80" 
-				cy="45">
-				<AppliesTo>
-					<Apply type="Class"/>
-				</AppliesTo>
-				<Redefinitions/>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-
-			<Stereotype 
-				name="BusinessOutput" 
-				notes="Output from a business service" 
-				metafile="BusinessOutput.emf" 
-				cx="80" 
-				cy="45">
-				<AppliesTo>
-					<Apply type="Class"/>
-				</AppliesTo>
-				<Redefinitions/>
-				<TaggedValues/>
-				<Constraints/>
-			</Stereotype>
-
-			-->
-			
 			<Stereotype 
 				name="BusinessInput" 
 				notes="" 
 				bgcolor="15466495" 
 				bordercolor="12829635" 
-				borderwidth="1"
-				cx="175"
-				cy="38">
+				borderwidth="1">
 				<Image 
 					type="EAShapeScript 1.0" 
 					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
@@ -302,9 +253,7 @@ B+yRTkxQSwUGAAAAAAEAAQA+AAAAQQEAAAAA</Image>
 				notes="" 
 				bgcolor="15466495" 
 				bordercolor="12829635" 
-				borderwidth="1"
-				cx="175"
-				cy="38">
+				borderwidth="1">
 				<Image 
 					type="EAShapeScript 1.0" 
 					xmlns:dt="urn:schemas-microsoft-com:datatypes" 
